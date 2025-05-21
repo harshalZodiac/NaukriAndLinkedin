@@ -43,6 +43,18 @@ NOTICE_PERIOD = 'Immediately Available'
 ROLE_CATEGORY_SECTION = 'Quality Assurance and Testing'  ## Dev 'Software Development'
 
 question_answer_map = {
+    "How many years of experience do you have in test engineering?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of work experience do you have with VectorCAST?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of work experience do you have with Karate?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of work experience do you have with Jira?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "What is your current annual compensation?": CURRENT_CTC,
+    "How many years of work experience do you have with Java 8+?": ANSWER_YES,
+    "Your ECTC ?": EXPECTED_CTC,
+    "What is your expected CTC from Airtel?": EXPECTED_CTC,
+    "Have you received any mail for Recruit.AI@ltts.com ?": ANSWER_NO,
+    "Hi Harshal, companies value diversity and want to build inclusive teams. Share your career status to proceed with this job application. Are you on a career break?": ANSWER_NO,
+    "How many years of experience do you have in Storage?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "We are committed to Thriving Together! Are you able to work in the office at least twice a week?": ANSWER_YES,
     "How many years of work experience do you have with Automation Testing?": YEARS_OF_EXPERIENCE_IN_CORE,
     "Please share your Annual Expected Compensation in INR": EXPECTED_CTC_FULL_NUMERIC,
     "What is your Expected CTC?": EXPECTED_CTC_FULL_NUMERIC,
