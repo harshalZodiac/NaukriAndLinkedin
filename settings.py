@@ -43,6 +43,11 @@ NOTICE_PERIOD = 'Immediately Available'
 ROLE_CATEGORY_SECTION = 'Quality Assurance and Testing'  ## Dev 'Software Development'
 
 question_answer_map = {
+    "Do you have experience working with SAN Functionalaities ?": ANSWER_YES,
+    "How many years of experience do you have in QA Engineer?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in JMeter?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "Are you comfortable commuting to this job's location?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in Mobile Application Testing?": YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of work experience do you have with Programming Languages?": YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of experience do you have in test engineering?": YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of work experience do you have with VectorCAST?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
