@@ -4,23 +4,7 @@ from page_objects.linkedin.login_page import LinkedinLoginPage
 import time
 
 
-class TestLinkedinLogin:
-
-    def test_linkedin_successful_login(self, browser_page):
-        linkedin_login_page = LinkedinLoginPage(browser_page)
-        linkedin_login_page.login_to_linkedin_application()
-        time.sleep(5)
-
-
 class TestLinkedinProfile:
-
-    def test_linkedin_profile_section_navigation(self, browser_page):
-        linkedin_login_page = LinkedinLoginPage(browser_page)
-        linkedin_profile_page = LinkedinProfilePage(browser_page)
-
-        linkedin_login_page.login_to_linkedin_application()
-        linkedin_profile_page.view_linkedin_profile()
-        time.sleep(5)
 
     def test_linkedin_profile_random_edit(self, browser_page):
         linkedin_login_page = LinkedinLoginPage(browser_page)

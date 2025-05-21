@@ -43,6 +43,7 @@ NOTICE_PERIOD = 'Immediately Available'
 ROLE_CATEGORY_SECTION = 'Quality Assurance and Testing'  ## Dev 'Software Development'
 
 question_answer_map = {
+    "How many years of work experience do you have with Programming Languages?": YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of experience do you have in test engineering?": YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of work experience do you have with VectorCAST?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of work experience do you have with Karate?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
