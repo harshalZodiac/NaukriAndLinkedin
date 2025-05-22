@@ -7,7 +7,7 @@ PASSWORD = "Harsh@555"
 JOB_SEARCH_TITLES = 'SDET, python test automation, Software testing, Automation testing, software developer engineer in test, python automation test engineer, '
 JOB_SEARCH_LOCATIONS = 'Pune, Bengaluru, Indore, India, Hyderabad, '
 
-LINKEDIN_JOB_SEARCH_TITLES = 'SDET'
+LINKEDIN_JOB_SEARCH_TITLES = 'python test automation' # 'SDET'
 LINKEDIN_JOB_SEARCH_LOCATIONS = 'India'
 
 USER_FULL_NAME = "Harshal Suryakant Shinde"
@@ -43,7 +43,36 @@ NOTICE_PERIOD = 'Immediately Available'
 ROLE_CATEGORY_SECTION = 'Quality Assurance and Testing'  ## Dev 'Software Development'
 
 question_answer_map = {
+    "How many years of work experience do you have with Composites?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "What is your Current Annual Salary?": CURRENT_CTC,
+    "How many years of work experience with Oracle automation | R2R or P2P?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many Years of experience do you have with QA Automation Testing?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of work experience do you have writing automated UI tests using tool MABL ?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience you have in Automation Testing?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of work experience do you have with GitHub?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of work experience do you have with Pyth (Programming Language)?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of work experience do you have with AI Software Development?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience with cloud platforms in AWS/Azure?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of work experience do you have with Rest Assured?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "What is your CTC expectation?": EXPECTED_CTC,
+    "How many years of work experience do you have with Android Testing?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of work experience do you have in QA automation?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in Java testing tools?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in Linux?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in Core Java?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in testing Native iOS Applications?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "This is a hybrid position that requires you to be in office a minimum 2 days per week. Can you meet this requirement?": ANSWER_YES,
+    "Please select the city you are currently residing or willing to relocate to": CURRENT_LOCATION,
+    "How many years of experience do you have in Automation Testng?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "Do you have experience AI/ML Frameworks like PyTorch or TensorFlow?": ANSWER_YES,
+    "How many years of work experience do you have with Pharmaceuticals?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "Total yrs of exp": YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of work experience do you have with Manual Testing?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of work experience do you have with Salesforce Automation?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of work experience do you have with International Sales?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of work experience do you have with ETL Testing?": YEARS_OF_EXPERIENCE_IN_CORE,
     "Do you have experience working with SAN Functionalaities ?": ANSWER_YES,
+    "How many years of work experience do you have with pytest?": YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of experience do you have in QA Engineer?": YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of experience do you have in JMeter?": YEARS_OF_EXPERIENCE_IN_CORE,
     "Are you comfortable commuting to this job's location?": YEARS_OF_EXPERIENCE_IN_CORE,
@@ -68,6 +97,7 @@ question_answer_map = {
     "How many years of work experience do you have with JUnit?": YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of work experience do you have with data validation and analysis?": YEARS_OF_EXPERIENCE_IN_CORE,
     "What is your Notice Period ?": NOTICE_PERIOD,
+    "What is your notice period in days?": NOTICE_PERIOD,
     "How many years of experience do you have with Selenium with Java?": YEARS_OF_EXPERIENCE_IN_CORE,
     "What is your total years of experience": YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of experience do you have in Rest Assured Framework?": YEARS_OF_EXPERIENCE_IN_CORE,

@@ -105,7 +105,7 @@ class LinkedinJobApplyPage:
                         if answer:
                             input_field.fill(answer)
                         else:
-                            print(f"[Unmapped Question] '{question}'")
+                            print(f"[Unmapped Question]: {question}")
                             self.page.locator(self.close_application_process).first.click()
                             time.sleep(1)
                             self.page.locator(self.save_application).first.click()
@@ -118,8 +118,6 @@ class LinkedinJobApplyPage:
                         time.sleep(1.5)
                     else:
                         print("[Warning] 'Next' button found but not enabled.")
-                else:
-                    print("[Info] No navigation button found. Exiting.")
             except Exception as e:
                 print(f"[Error] Exception during application process: {e}")
                 break

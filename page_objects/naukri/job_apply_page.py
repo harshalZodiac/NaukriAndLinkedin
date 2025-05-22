@@ -59,7 +59,7 @@ class NaukriJobApplyPage:
                         new_tab.keyboard.press("Enter")
                         time.sleep(1.5)
                     else:
-                        print(f"[Warning] Unmapped question: {question_text}")
+                        print(f"[Unmapped question]: {question_text}")
                         break
 
                 except Exception as e:
