@@ -116,8 +116,6 @@ class LinkedinJobApplyPage:
                     if next_btn.is_enabled():
                         next_btn.click()
                         time.sleep(1.5)
-                    else:
-                        print("[Warning] 'Next' button found but not enabled.")
             except Exception as e:
                 print(f"[Error] Exception during application process: {e}")
                 break
