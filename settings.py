@@ -45,6 +45,9 @@ ROLE_CATEGORY_SECTION = 'Quality Assurance and Testing'  ## Dev 'Software Develo
 
 question_answer_map = {
     "How much is your current CTC? Mention the figure in lacs.": CURRENT_CTC,
+    "What is your current CTC salary in Lakh Per Annum?": CURRENT_CTC_NUMERIC,
+    "What was your CGPA in B.Tech./ BCA/ B.Sc./ MCA/ Bachelors degree?": '8.21',
+    "How many years of work experience do you have with Python?": YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of work experience do you have with Representational State Transfer (REST)?": YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of work experience do you have in Rest API development using JavaScript, Node.js, Java/J2EE, Ruby?": YEARS_OF_EXPERIENCE_IN_CORE,
     "Desired Salary / Expectativa Salarial": EXPECTED_CTC,
