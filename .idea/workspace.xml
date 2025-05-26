@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="849a781d-8612-4635-8aec-9afb027c974e" name="Changes" comment="Adding few more questions 4">
+    <list default="true" id="849a781d-8612-4635-8aec-9afb027c974e" name="Changes" comment="Adding few more questions 5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -516,7 +517,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748150403676</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Adding few more questions 5">
+      <option name="closed" value="true" />
+      <created>1748160531058</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1748160531058</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -531,7 +540,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="updating questions and respected answers" />
     <MESSAGE value="updating questions and respected answers- 1" />
     <MESSAGE value="Reapplying filter role category" />
     <MESSAGE value="Building the Linkedin application methods" />
@@ -556,6 +564,7 @@
     <MESSAGE value="Adding few more questions 2" />
     <MESSAGE value="Adding few more questions 3" />
     <MESSAGE value="Adding few more questions 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding few more questions 4" />
+    <MESSAGE value="Adding few more questions 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding few more questions 5" />
   </component>
 </project>
