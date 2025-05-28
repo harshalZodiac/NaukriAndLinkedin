@@ -43,6 +43,13 @@ ROLE_CATEGORY_SECTION = 'Quality Assurance and Testing'  ## Dev 'Software Develo
 
 question_answer_map = {
     "How many years of professional experience do you have in software testing and quality assurance": YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of total experience do you have?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "How much experience do you have?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "What is your current location and preferred location ?": CURRENT_LOCATION,
+    "How many years of experience do you have in automation testing?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in Python Automation?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many Years of Automation Testing Experience do you have": YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in Automation Testing?": YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of work experience do you have with QA Manual?": YEARS_OF_EXPERIENCE_IN_CORE,
     "Previously Employed by Cognizant": ANSWER_NO,
     "Can you join within 30 Days?": ANSWER_YES,
@@ -51,7 +58,9 @@ question_answer_map = {
     "How many years of experience do you have in Web Application Testing?": YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of work experience do you have in Performance Testing using Jmeter?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "ECTC": EXPECTED_CTC_NUMERIC,
+    "Current CTC ?": EXPECTED_CTC_NUMERIC,
     "How many years of work experience do you have with Application Development?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "Expected CTC (in LPA)": EXPECTED_CTC_NUMERIC,
     "are you currently serving your notice ? if so how many days you have left ?": NOTICE_PERIOD_IN_DAYS,
     "What is your monthly salary expectation? In Indian Rupee.": EXPECTED_CTC_NUMERIC,
     "How many years of work experience do you have with Azure Kubernetes Service (AKS)?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
