@@ -38,11 +38,17 @@ CURRENT_LOCATION = 'Bengaluru, Karnataka, India'
 CURRENT_LOCATION_IS_BANGALORE = 'Currently staying in bengaluru'
 NOTICE_PERIOD_IN_DAYS = '15'
 OFFICIAL_NOTICE_PERIOD_IN_DAYS = '60'
-
+SKILLS = "Manual Testing, Automated Testing, API, Playwright, PyTest, Postman, Selenium, Accessibility Testing, CI/CD Pipeline Configuration, Cross-Browser Testing & Responsive Testing"
 ROLE_CATEGORY_SECTION = 'Quality Assurance and Testing'  ## Dev 'Software Development'
 
 question_answer_map = {
+    "How many years of professional experience do you have in software testing and quality assurance": YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of work experience do you have with QA Manual?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "Previously Employed by Cognizant": ANSWER_NO,
+    "Can you join within 30 Days?": ANSWER_YES,
+    "How many years of experience do you have in UNIX?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of experience do you have in Data Bricks?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of experience do you have in Web Application Testing?": YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of work experience do you have in Performance Testing using Jmeter?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "ECTC": EXPECTED_CTC_NUMERIC,
     "How many years of work experience do you have with Application Development?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
@@ -169,7 +175,7 @@ question_answer_map = {
     "How many years of work experience do you have with MATLAB?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of work experience do you have with Marketing Qualified Lead (MQL)?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of experience do you have in software implementation?": YEARS_OF_EXPERIENCE_IN_CORE,
-    "What about this role makes it a good fit for you?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "What about this role makes it a good fit for you?": SKILLS,
     "What is your Notice period?": NOTICE_PERIOD_IN_DAYS,
     "How many years of work experience do you have with Hibernate?": YEARS_OF_EXPERIENCE_IN_CORE,
     "What is your current fixed CTC?": CURRENT_CTC_NUMERIC,
