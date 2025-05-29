@@ -44,7 +44,12 @@ ROLE_CATEGORY_SECTION = 'Quality Assurance and Testing'  ## Dev 'Software Develo
 question_answer_map = {
     "How many years of professional experience do you have in software testing and quality assurance": YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of total experience do you have?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in Python Testing?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in Automation test?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "Nationality": "Indian",
+    "Middle Name": "Suryakant",
     "How much experience do you have?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "Are you willing to come down to the Office for a Walkin (Bangalore)": ANSWER_YES,
     "What is your current location and preferred location ?": CURRENT_LOCATION,
     "How many years of experience do you have in automation testing?": YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of experience do you have in Python Automation?": YEARS_OF_EXPERIENCE_IN_CORE,
