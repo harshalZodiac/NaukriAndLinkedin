@@ -42,6 +42,12 @@ SKILLS = "Manual Testing, Automated Testing, API, Playwright, PyTest, Postman, S
 ROLE_CATEGORY_SECTION = 'Quality Assurance and Testing'  ## Dev 'Software Development'
 
 question_answer_map = {
+    "How many years of work experience do you have with Java/J2EE?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of work experience do you have with Medical Device Quality Assurance?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of work experience do you have with IRIS?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of experience with Cargo Platform implementing forwarding and transportation management functions. ?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "What is your total work experience ?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of work experience do you have with Playwriting?": YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of professional experience do you have in software testing and quality assurance": YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of total experience do you have?": YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of experience do you have in Python Testing?": YEARS_OF_EXPERIENCE_IN_CORE,
