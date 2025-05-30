@@ -42,7 +42,14 @@ SKILLS = "Manual Testing, Automated Testing, API, Playwright, PyTest, Postman, S
 ROLE_CATEGORY_SECTION = 'Quality Assurance and Testing'  ## Dev 'Software Development'
 
 question_answer_map = {
+    "How many years of work experience do you have with Amazon Web Services (AWS)?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of work experience do you have with Architects?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of work experience do you have with API Testing?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "Years of experience as a Software Engineer, or Software Development Engineer in Test?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "What is Expected CTC/Salary per annum?": EXPECTED_CTC_NUMERIC,
+    "Whats your CTC?": CURRENT_CTC_NUMERIC,
     "How many years of work experience do you have with Java/J2EE?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "Are you proficient in at least two of the following programming languages: JavaScript, Python, Go, Java, TypeScript, or C++?": ANSWER_YES,
     "How many years of work experience do you have with Medical Device Quality Assurance?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of work experience do you have with IRIS?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of experience with Cargo Platform implementing forwarding and transportation management functions. ?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
