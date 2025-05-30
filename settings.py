@@ -42,7 +42,13 @@ SKILLS = "Manual Testing, Automated Testing, API, Playwright, PyTest, Postman, S
 ROLE_CATEGORY_SECTION = 'Quality Assurance and Testing'  ## Dev 'Software Development'
 
 question_answer_map = {
+    "Are you ready to relocate to Bangalore?": ANSWER_YES,
+    "Total Experience(In years)": YEARS_OF_EXPERIENCE_IN_CORE,
+    "Current Company Name:": "SASKEN Technology (ABB INDIA)",
+    "Preferred Name": USER_FULL_NAME,
+    "This is fulltime employment V3 Staffing and Deputed in Client Place - Are you interested??":ANSWER_YES,
     "How many years of work experience do you have with Amazon Web Services (AWS)?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of work experience do you have as a ETL Testing ?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of work experience do you have with Architects?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of work experience do you have with API Testing?": YEARS_OF_EXPERIENCE_IN_CORE,
     "Years of experience as a Software Engineer, or Software Development Engineer in Test?": YEARS_OF_EXPERIENCE_IN_CORE,

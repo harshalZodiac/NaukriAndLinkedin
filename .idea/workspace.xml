@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="849a781d-8612-4635-8aec-9afb027c974e" name="Changes" comment="Adding few more questions 10">
+    <list default="true" id="849a781d-8612-4635-8aec-9afb027c974e" name="Changes" comment="Adding few more questions 11">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/external_links.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tests/external_links.txt" afterDir="false" />
@@ -98,7 +98,7 @@
       <recent name="D:\PythonProject\Naukri" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_linkedin.TestLinkedinApply.test_linkedin_job_apply">
+  <component name="RunManager" selected="Python tests.Python tests for test_naukri.TestNaukriJobApply.test_naukri_apply">
     <configuration name="Python tests for test_linkedin.TestLinkedinApply.test_linkedin_job_apply" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Naukri" />
       <option name="ENV_FILES" value="" />
@@ -176,8 +176,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_linkedin.TestLinkedinApply.test_linkedin_job_apply" />
         <item itemvalue="Python tests.Python tests for test_naukri.TestNaukriJobApply.test_naukri_apply" />
+        <item itemvalue="Python tests.Python tests for test_linkedin.TestLinkedinApply.test_linkedin_job_apply" />
         <item itemvalue="Python tests.Python tests for test_naukri.TestNaukriJobApply" />
         <item itemvalue="Python tests.Python tests for test_linkedin.TestLinkedinProfile.test_linkedin_profile_random_edit" />
         <item itemvalue="Python tests.Python tests for test_naukri.TestNaukriLogin" />
@@ -559,7 +559,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748492741307</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Adding few more questions 11">
+      <option name="closed" value="true" />
+      <created>1748615225047</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1748615225047</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -574,7 +582,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Moving locators to class" />
     <MESSAGE value="Handling role category filter correctly" />
     <MESSAGE value="Added few more questions" />
     <MESSAGE value="Added few more questions 1" />
@@ -599,6 +606,7 @@
     <MESSAGE value="Adding few more questions 8" />
     <MESSAGE value="Adding few more questions 9" />
     <MESSAGE value="Adding few more questions 10" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding few more questions 10" />
+    <MESSAGE value="Adding few more questions 11" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding few more questions 11" />
   </component>
 </project>
