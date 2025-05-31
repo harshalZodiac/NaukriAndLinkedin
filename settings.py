@@ -42,6 +42,13 @@ SKILLS = "Manual Testing, Automated Testing, API, Playwright, PyTest, Postman, S
 ROLE_CATEGORY_SECTION = 'Quality Assurance and Testing'  ## Dev 'Software Development'
 
 question_answer_map = {
+    "How many years of work experience do you have with C (Programming Language)?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of work experience do you have with sitecore ?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of work experience do you have with Mainframe Developing ?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "What is your desired CTC?": EXPECTED_CTC_NUMERIC,
+    "Current Location (City)": CURRENT_LOCATION,
+    "Are your available for in-person interview on Tuesday-3-June-2025": ANSWER_YES,
+    "Are you comfortable working at Client's office in Chennai?": ANSWER_YES,
     "Are you ready to relocate to Bangalore?": ANSWER_YES,
     "Total Experience(In years)": YEARS_OF_EXPERIENCE_IN_CORE,
     "Current Company Name:": "SASKEN Technology (ABB INDIA)",
