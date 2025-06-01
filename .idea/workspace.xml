@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="849a781d-8612-4635-8aec-9afb027c974e" name="Changes" comment="Adding few more questions 12">
+    <list default="true" id="849a781d-8612-4635-8aec-9afb027c974e" name="Changes" comment="Adding few more questions 13">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/external_links.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tests/external_links.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -574,7 +575,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748616859448</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Adding few more questions 13">
+      <option name="closed" value="true" />
+      <created>1748667670122</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1748667670122</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -589,7 +598,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added few more questions" />
     <MESSAGE value="Added few more questions 1" />
     <MESSAGE value="Added few more questions 2" />
     <MESSAGE value="Added few more questions 3" />
@@ -614,6 +622,7 @@
     <MESSAGE value="Adding few more questions 10" />
     <MESSAGE value="Adding few more questions 11" />
     <MESSAGE value="Adding few more questions 12" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding few more questions 12" />
+    <MESSAGE value="Adding few more questions 13" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding few more questions 13" />
   </component>
 </project>

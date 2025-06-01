@@ -42,6 +42,8 @@ SKILLS = "Manual Testing, Automated Testing, API, Playwright, PyTest, Postman, S
 ROLE_CATEGORY_SECTION = 'Quality Assurance and Testing'  ## Dev 'Software Development'
 
 question_answer_map = {
+    "How many years of experience do you have in Functional Testing?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "Have you previously worked at Skillsoft as an employee, intern, or contractor?":ANSWER_NO,
     "How many years of work experience do you have with C (Programming Language)?": YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of work experience do you have with sitecore ?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of work experience do you have with Mainframe Developing ?": YEARS_OF_EXPERIENCE_IN_CORE,
