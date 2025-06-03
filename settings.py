@@ -7,7 +7,7 @@ PASSWORD = "Harsh@555"
 JOB_SEARCH_TITLES = 'SDET, python test automation, Software testing, Automation testing, software developer engineer in test, python automation test engineer, '
 JOB_SEARCH_LOCATIONS = 'Pune, Bengaluru, Indore, India, Hyderabad, '
 
-LINKEDIN_JOB_SEARCH_TITLES = 'SDET' # 'python test automation'
+LINKEDIN_JOB_SEARCH_TITLES = 'python test automation' # 'SDET'
 LINKEDIN_JOB_SEARCH_LOCATIONS = 'India'
 
 USER_FULL_NAME = "Harshal Suryakant Shinde"
@@ -42,6 +42,8 @@ SKILLS = "Manual Testing, Automated Testing, API, Playwright, PyTest, Postman, S
 ROLE_CATEGORY_SECTION = 'Quality Assurance and Testing'  ## Dev 'Software Development'
 
 question_answer_map = {
+    "Please provide your Pan Card number?":'HOQPS3028F',
+    "How many years of experience do you have in API Testing?":YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of experience do you have in Functional Testing?":YEARS_OF_EXPERIENCE_IN_CORE,
     "Have you previously worked at Skillsoft as an employee, intern, or contractor?":ANSWER_NO,
     "How many years of work experience do you have with C (Programming Language)?": YEARS_OF_EXPERIENCE_IN_CORE,
