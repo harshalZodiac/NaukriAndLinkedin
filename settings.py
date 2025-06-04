@@ -42,6 +42,19 @@ SKILLS = "Manual Testing, Automated Testing, API, Playwright, PyTest, Postman, S
 ROLE_CATEGORY_SECTION = 'Quality Assurance and Testing'  ## Dev 'Software Development'
 
 question_answer_map = {
+    "Current CTC? And Expected CTC?":f'{CURRENT_CTC_NUMERIC} & {EXPECTED_CTC_NUMERIC}',
+    "How many years of experience do you have in API Testing ?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "Are you available for F2F interview on June 14th ??":ANSWER_YES,
+    "Skill Category": 'Python, Playwright, pytest, UI Automation, UI Automation, Postman, Azure DevOps',
+    "How many years of experience do you have in JIRA?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of work experience do you have with Operating System Administration?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of experience do you have in Golang?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of experience do you have in Manual Testing ?":	YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in Data Warehousing?":	YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of experience do you have in Data Warehouse Testing?":YEARS_OF_EXPERIENCE_IN_NON_CORE	,
+    "How many years of experience do you have in ETL testing?":	YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "Aadhaar Number":'281263544960',
+    "How many years of work experience do you have with JavaScript?":YEARS_OF_EXPERIENCE_IN_CORE,
     "Please provide your Pan Card number?":'HOQPS3028F',
     "How many years of experience do you have in API Testing?":YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of experience do you have in Functional Testing?":YEARS_OF_EXPERIENCE_IN_CORE,
