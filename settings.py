@@ -33,8 +33,10 @@ LAST_NAME = 'Shinde'
 DATE_OF_BIRTH = '29/12/1998'
 GENDER = 'Male'
 COUNTRY_CODE = '+91'
+MOBILE_NUMBER = '9168921075'
 
 CURRENT_LOCATION = 'Bengaluru, Karnataka, India'
+PREFERRED_LOCATION = 'Pune, Bengaluru, Remote, Any city in india'
 CURRENT_LOCATION_IS_BANGALORE = 'Currently staying in bengaluru'
 NOTICE_PERIOD_IN_DAYS = '15'
 OFFICIAL_NOTICE_PERIOD_IN_DAYS = '60'
@@ -42,10 +44,34 @@ SKILLS = "Manual Testing, Automated Testing, API, Playwright, PyTest, Postman, S
 ROLE_CATEGORY_SECTION = 'Quality Assurance and Testing'  ## Dev 'Software Development'
 
 question_answer_map = {
+    "How many years of experience do you have with maintaining test automation frameworks using Playwright with Python/Java Script?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "What is your total years of experience?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "What are your annual salary expectations? (Enter base salary amount in rupees like if salary expectations are 12 lakhs then enter 1200000)":EXPECTED_CTC_FULL_NUMERIC,
+    "How many years of work experience do you have as a Test Analyst or Engineer?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of work experience do you have with testing scripts using Platform?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of work experience do you have with scripting language (Java, Groovy, Beamshell)?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of work experience do you have with Cisco Systems Products?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "What is your Exit Date updated in the System as we are looking only people who are immediate joiner ?":ANSWER_YES,
+    "Relevant Experience with Java/Python (Coding)?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "Do you have hands on experience with Accessibility Testing? Mention the no.of years below":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in SDET?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in Atm Testing?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "Are you currently residing in Salem, Tamil Nadu or willing to relocate to Salem, Tamil Nadu?":ANSWER_YES,
+    "Phone": MOBILE_NUMBER,
+    "How many years of work experience do you have as a Quality Assurance Engineer?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "Relevant Experience with ETL Testing?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "Total IT Exp.?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "Which Location would you Prefer -": PREFERRED_LOCATION,
+    "Do you have a minimum of 70% marks in all your academic qualifications (schooling and higher education)?":ANSWER_YES,
+    "How many years of experience do you have in Manual And Automation Testing?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "Are you currently residing in Chennai, Tamil Nadu or willing to relocate to Chennai, Tamil Nadu?":ANSWER_YES,
+    "How many years of experience do you have in Mobile Testing?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience in API Testing?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in Cloud?":YEARS_OF_EXPERIENCE_IN_CORE,
     "Current CTC? And Expected CTC?":f'{CURRENT_CTC_NUMERIC} & {EXPECTED_CTC_NUMERIC}',
     "How many years of experience do you have in API Testing ?":YEARS_OF_EXPERIENCE_IN_CORE,
     "Are you available for F2F interview on June 14th ??":ANSWER_YES,
-    "Skill Category": 'Python, Playwright, pytest, UI Automation, UI Automation, Postman, Azure DevOps',
+    "Skill Category": "Python, Playwright, pytest, UI Automation, UI Automation, Postman, Azure DevOps",
     "How many years of experience do you have in JIRA?":YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of work experience do you have with Operating System Administration?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of experience do you have in Golang?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
