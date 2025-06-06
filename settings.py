@@ -12,8 +12,8 @@ LINKEDIN_JOB_SEARCH_LOCATIONS = 'India'
 
 USER_FULL_NAME = "Harshal Suryakant Shinde"
 
-YEARS_OF_EXPERIENCE_IN_CORE = '4'
-YEARS_OF_EXPERIENCE_IN_NON_CORE = '2'
+YEARS_OF_EXPERIENCE_IN_CORE = '5'
+YEARS_OF_EXPERIENCE_IN_NON_CORE = '3'
 
 EXPECTED_CTC_FULL_NUMERIC = '1500000'
 CURRENT_CTC_FULL_NUMERIC = '700000'
@@ -27,6 +27,7 @@ ANSWER_NOT_APPLICABLE = 'NA'
 ANSWER_ALL = 'ALL'
 
 PROGRAMMING_LANGUAGE = 'Python'
+CURRENT_ORGANIZATION = 'SASKEN Technology (ABB INDIA)'
 
 FIRST_NAME = 'Harshal'
 LAST_NAME = 'Shinde'
@@ -44,6 +45,33 @@ SKILLS = "Manual Testing, Automated Testing, API, Playwright, PyTest, Postman, S
 ROLE_CATEGORY_SECTION = 'Quality Assurance and Testing'  ## Dev 'Software Development'
 
 question_answer_map = {
+    "How much experience you have in Python Automation Testing?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in API testing?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "Full Name as per Aadhar? and Current Payroll Company Name?": f'{USER_FULL_NAME} & {CURRENT_ORGANIZATION}',
+    "How many years of experience do you have in Playwright Automation?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "Relevant Experience as QA - Quality Assurance Engineer?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "Salutation": 'Mr.',
+    "How many years of work experience do you have with Global Distribution Systems (GDS)?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "Current company": CURRENT_ORGANIZATION,
+    "How many years of work experience do you have with Embedded testing": YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of work experience do you have with DWH?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "Start Date": NOTICE_PERIOD_IN_DAYS,
+    "How many years of work experience do you have with Java Database Connectivity (JDBC)?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of work experience do you have with SAP Cloud Platform?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of work experience do you have with Cash Management?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "Total Experience": YEARS_OF_EXPERIENCE_IN_CORE,
+    "City": CURRENT_LOCATION,
+    "Total Year experience": YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you hold with penetration testing tools and methodologies – PTES, NIST 800-115, OWASP": ANSWER_YES,
+    "how much is your expected CTC": CURRENT_CTC_NUMERIC,
+    "How many years of work experience do you have with Oracle Applications?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "Cypress is mandatory .How many years of experience do you have in Cypress?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "Your Last working date?If serving notice period?": NOTICE_PERIOD_IN_DAYS,
+    "How much can you rate on your communication skills out of 5?": '5',
+    "What is your notice period?(Days or LWD:DD/MM/YYYY)": NOTICE_PERIOD_IN_DAYS,
+    "What's your current salary?": CURRENT_CTC_NUMERIC,
+    "How many years of experience do you have in Selenium With Java?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "Are you can immediate joiner? Whats your notice period?": NOTICE_PERIOD_IN_DAYS,
     "How many years of experience do you have with maintaining test automation frameworks using Playwright with Python/Java Script?":YEARS_OF_EXPERIENCE_IN_CORE,
     "What is your total years of experience?":YEARS_OF_EXPERIENCE_IN_CORE,
     "What are your annual salary expectations? (Enter base salary amount in rupees like if salary expectations are 12 lakhs then enter 1200000)":EXPECTED_CTC_FULL_NUMERIC,
@@ -94,7 +122,7 @@ question_answer_map = {
     "Are you comfortable working at Client's office in Chennai?": ANSWER_YES,
     "Are you ready to relocate to Bangalore?": ANSWER_YES,
     "Total Experience(In years)": YEARS_OF_EXPERIENCE_IN_CORE,
-    "Current Company Name:": "SASKEN Technology (ABB INDIA)",
+    "Current Company Name:": CURRENT_ORGANIZATION,
     "Preferred Name": USER_FULL_NAME,
     "This is fulltime employment V3 Staffing and Deputed in Client Place - Are you interested??":ANSWER_YES,
     "How many years of work experience do you have with Amazon Web Services (AWS)?": YEARS_OF_EXPERIENCE_IN_NON_CORE,

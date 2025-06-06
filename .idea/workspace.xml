@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="849a781d-8612-4635-8aec-9afb027c974e" name="Changes" comment="Adding few more questions 16">
+    <list default="true" id="849a781d-8612-4635-8aec-9afb027c974e" name="Changes" comment="Adding few more questions 17">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/external_links.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tests/external_links.txt" afterDir="false" />
@@ -198,14 +198,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1745641894439</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Applying to jobs">
-      <option name="closed" value="true" />
-      <created>1745855154262</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1745855154264</updated>
     </task>
     <task id="LOCAL-00004" summary="Applying to jobs 2">
       <option name="closed" value="true" />
@@ -591,7 +583,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749009054876</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Adding few more questions 17">
+      <option name="closed" value="true" />
+      <created>1749092278675</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1749092278675</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -606,7 +606,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding referential .yml file" />
     <MESSAGE value="Adding question 3" />
     <MESSAGE value="Updating Linkedin apply" />
     <MESSAGE value="Updating Linkedin apply-1" />
@@ -631,6 +630,7 @@
     <MESSAGE value="Adding few more questions 14" />
     <MESSAGE value="Adding few more questions 15" />
     <MESSAGE value="Adding few more questions 16" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding few more questions 16" />
+    <MESSAGE value="Adding few more questions 17" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding few more questions 17" />
   </component>
 </project>
