@@ -45,6 +45,16 @@ SKILLS = "Manual Testing, Automated Testing, API, Playwright, PyTest, Postman, S
 ROLE_CATEGORY_SECTION = 'Quality Assurance and Testing'  ## Dev 'Software Development'
 
 question_answer_map = {
+    "How much experience you have BGP & OSPF Networking protocols?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "Are you available for Face-to-Face Interview at 22nd February 2025 (Saturday)..?":ANSWER_YES,
+    "How many years of experience you have in Java, Selenium?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of experience do you have in BDD?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "PAN Number (Mandatory for uploading your profile)":'HOQPS3028F',
+    "Are you an immediate joiner? Can you join us within 7 days?":ANSWER_YES,
+    "How many years of experience in python with selenium":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in Automation Testing ?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "SALUTATION":'Mr.',
+    "Are you currently residing in Ahmedabad or willing to relocate to Ahmedabad or Abu Dhabi?":ANSWER_YES,
     "How much experience you have in Python Automation Testing?": YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of experience do you have in API testing?": YEARS_OF_EXPERIENCE_IN_CORE,
     "Full Name as per Aadhar? and Current Payroll Company Name?": f'{USER_FULL_NAME} & {CURRENT_ORGANIZATION}',
