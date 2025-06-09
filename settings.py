@@ -45,6 +45,15 @@ SKILLS = "Manual Testing, Automated Testing, API, Playwright, PyTest, Postman, S
 ROLE_CATEGORY_SECTION = 'Quality Assurance and Testing'  ## Dev 'Software Development'
 
 question_answer_map = {
+    "How many years of work experience do you have with Expense Allocation?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of Semiconductor Manufacturing experience do you currently have?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of work experience do you have with Aircraft Maintenance?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "Current CTC?": CURRENT_CTC_NUMERIC,
+    "How many years of work experience do you have with Java/C# ?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of experience do you have in deploying AI projects for real world problems?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of work experience do you have with Delphi?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of work experience do you have with Azure Functions?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "What is your current location?": CURRENT_LOCATION,
     "Currently located in Hyderabad":ANSWER_NO,
     "Relevant Experience with Advanced SQL?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "Doyou have experience in Python or C#?":YEARS_OF_EXPERIENCE_IN_CORE,
