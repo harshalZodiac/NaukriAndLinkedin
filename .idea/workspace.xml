@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="849a781d-8612-4635-8aec-9afb027c974e" name="Changes" comment="Adding few more questions 20">
+    <list default="true" id="849a781d-8612-4635-8aec-9afb027c974e" name="Changes" comment="Adding few more questions 21">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/external_links.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tests/external_links.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -197,14 +198,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1745641894439</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Applying role category and education filters">
-      <option name="closed" value="true" />
-      <created>1746629726128</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1746629726128</updated>
     </task>
     <task id="LOCAL-00008" summary="Updating the no of pages and job logic">
       <option name="closed" value="true" />
@@ -590,7 +583,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749282286151</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Adding few more questions 21">
+      <option name="closed" value="true" />
+      <created>1749437312765</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1749437312767</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -605,7 +606,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Updating Linkedin apply-2" />
     <MESSAGE value="Updating Linkedin apply-3" />
     <MESSAGE value="new one" />
     <MESSAGE value="Removing unnecessary files and test cases" />
@@ -630,6 +630,7 @@
     <MESSAGE value="Adding few more questions 18" />
     <MESSAGE value="Adding few more questions 19" />
     <MESSAGE value="Adding few more questions 20" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding few more questions 20" />
+    <MESSAGE value="Adding few more questions 21" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding few more questions 21" />
   </component>
 </project>

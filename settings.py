@@ -45,6 +45,23 @@ SKILLS = "Manual Testing, Automated Testing, API, Playwright, PyTest, Postman, S
 ROLE_CATEGORY_SECTION = 'Quality Assurance and Testing'  ## Dev 'Software Development'
 
 question_answer_map = {
+    "How many years of work experience do you have with Azure-CI/CD Pipeline?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "What's your current CTC?":CURRENT_CTC_NUMERIC,
+    "How many years of experience do you have in Automation testing?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in C#?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of experience do you have in Layer 2?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of work experience do you have in product manual functional testing and quality assurance?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience in Automation testing ?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in Performance Testing?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "Do you have any experience in AnyLogic or FlexSim Tool ?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of experience do you have in Webdriver?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in Programming language(and in which on -Java or Python or C)?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in Selenium Testing?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "Are you ready for 5 Days WFO at Client location(Pune)?":ANSWER_YES ,
+    "How many years of experience do you have in L3?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "Are you an Immediate Joiner?": ANSWER_YES,
+    "Do you have 4+ Years of automation? Please specify your responsibility as automation engineer?": "Framework Development, UI Automation, API Automation",
+    "How many years of experience in CI/CD pipeline?": YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of work experience do you have with Expense Allocation?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of Semiconductor Manufacturing experience do you currently have?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of work experience do you have with Aircraft Maintenance?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
