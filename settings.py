@@ -45,6 +45,13 @@ SKILLS = "Manual Testing, Automated Testing, API, Playwright, PyTest, Postman, S
 ROLE_CATEGORY_SECTION = 'Quality Assurance and Testing'  ## Dev 'Software Development'
 
 question_answer_map = {
+    "What is your relevant experience?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "Full Name":USER_FULL_NAME,
+    "How many years of experience do you have in Ios Testing?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "Are you comfortable working in Bangalore in Hybrid mode?":ANSWER_YES,
+    "Are you currently residing in Kochi, Kerala or willing to relocate to Kochi, Kerala?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "Total Expereince":YEARS_OF_EXPERIENCE_IN_CORE,
+    "Do you have hands-on experience in Python?":YEARS_OF_EXPERIENCE_IN_CORE,
     "What is your current CTC (in LPA)?":CURRENT_CTC_NUMERIC,
     "How many years of hands-on DevOps experience do you have in production environments?":YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of work experience do you have with Application Programming Interfaces (API)?":YEARS_OF_EXPERIENCE_IN_CORE,
