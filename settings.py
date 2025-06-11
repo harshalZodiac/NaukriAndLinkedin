@@ -7,7 +7,7 @@ PASSWORD = "Harsh@555"
 JOB_SEARCH_TITLES = 'SDET, python test automation, Software testing, Automation testing, software developer engineer in test, python automation test engineer, '
 JOB_SEARCH_LOCATIONS = 'Pune, Bengaluru, Indore, India, Hyderabad, '
 
-LINKEDIN_JOB_SEARCH_TITLES = 'python test automation' # 'SDET'
+LINKEDIN_JOB_SEARCH_TITLES = 'SDET' #'python test automation'
 LINKEDIN_JOB_SEARCH_LOCATIONS = 'India'
 
 USER_FULL_NAME = "Harshal Suryakant Shinde"
@@ -45,6 +45,26 @@ SKILLS = "Manual Testing, Automated Testing, API, Playwright, PyTest, Postman, S
 ROLE_CATEGORY_SECTION = 'Quality Assurance and Testing'  ## Dev 'Software Development'
 
 question_answer_map = {
+    "What is your current CTC (in LPA)?":CURRENT_CTC_NUMERIC,
+    "How many years of hands-on DevOps experience do you have in production environments?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of work experience do you have with Application Programming Interfaces (API)?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in UI Automation?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How soon will you be able to start? (in days)":NOTICE_PERIOD_IN_DAYS,
+    "What is your current notice period?":NOTICE_PERIOD_IN_DAYS,
+    "Current CTC:":CURRENT_CTC_NUMERIC,
+    "How many years of work experience do you have with Laboratory Information Management System (LIMS)?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How Many Years of experience do you have in Selenium?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "Desired Salary (Numeric Input Only)":CURRENT_CTC_NUMERIC,
+    "What is your total experience":YEARS_OF_EXPERIENCE_IN_CORE,
+    "Do you have PF A/C in current & Pervious organization?":ANSWER_YES,
+    "How many years of experience do you have in Appium?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "Do you have 2-5 Years of Experience?":ANSWER_YES,
+    "Are you available for F2F on 14th June from Bangalore?":ANSWER_YES,
+    "How many Years of experiance do you have in Playwrite?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in Selenium with Java?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "What is your total exp?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of working Playwright experience?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many Years of experiance do you have in Appium ?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of experience do you have in Typescript?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of experience do you have in API?": YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of experience do you have Database Tech Lead?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
