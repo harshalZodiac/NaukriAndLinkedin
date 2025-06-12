@@ -45,6 +45,16 @@ SKILLS = "Manual Testing, Automated Testing, API, Playwright, PyTest, Postman, S
 ROLE_CATEGORY_SECTION = 'Quality Assurance and Testing'  ## Dev 'Software Development'
 
 question_answer_map = {
+    "How many years of work experience do you have with Payment Gateways?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "What is your Total Years of experience?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of work experience do you have with Digital Integration?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "What's your official notice period?":NOTICE_PERIOD_IN_DAYS,
+    "What's your expected CTC based on your experience?":EXPECTED_CTC_NUMERIC,
+    "How many years of work experience do you have with Data Architects?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of work experience do you have with Object Oriented Design?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of work experience do you have with Eclipse?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of experience you have in IT Industry":YEARS_OF_EXPERIENCE_IN_CORE,
+    "Years of experience in WPF Framework?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "What is your preferred name?":USER_FULL_NAME,
     "How many years of experience do you have in Sap Automation?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "Relevant Experience":YEARS_OF_EXPERIENCE_IN_CORE,
