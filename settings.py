@@ -45,6 +45,15 @@ SKILLS = "Manual Testing, Automated Testing, API, Playwright, PyTest, Postman, S
 ROLE_CATEGORY_SECTION = 'Quality Assurance and Testing'  ## Dev 'Software Development'
 
 question_answer_map = {
+    "What is your preferred name?":USER_FULL_NAME,
+    "How many years of experience do you have in Sap Automation?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "Relevant Experience":YEARS_OF_EXPERIENCE_IN_CORE,
+    "Open to relocate to which Location":JOB_SEARCH_LOCATIONS,
+    "How many years of experience do you have in Cucumber/Bdd?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "Do you have more than 4 years total experience?":ANSWER_YES,
+    "How many years of experience do you have in PythonTesting?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in Software Testing?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in Web Testing?":YEARS_OF_EXPERIENCE_IN_CORE,
     "What is your Notice Period?":NOTICE_PERIOD_IN_DAYS,
     "What is your expected CTC in LPA?":EXPECTED_CTC_NUMERIC,
     "How many years of work experience do you have with Git?":YEARS_OF_EXPERIENCE_IN_CORE,
