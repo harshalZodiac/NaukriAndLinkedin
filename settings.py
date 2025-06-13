@@ -45,6 +45,7 @@ SKILLS = "Manual Testing, Automated Testing, API, Playwright, PyTest, Postman, S
 ROLE_CATEGORY_SECTION = 'Quality Assurance and Testing'  ## Dev 'Software Development'
 
 question_answer_map = {
+    "How many years of work experience do you have in total?":YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of experience do you have in Selenium Webdriver?":YEARS_OF_EXPERIENCE_IN_CORE,
     "Are you currently residing in Pune, Maharashtra or willing to relocate to Pune, Maharashtra?":ANSWER_YES,
     "Are you currently residing in Pune or willing to relocate to Pune?":ANSWER_YES,
