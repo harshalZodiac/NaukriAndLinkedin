@@ -45,6 +45,16 @@ SKILLS = "Manual Testing, Automated Testing, API, Playwright, PyTest, Postman, S
 ROLE_CATEGORY_SECTION = 'Quality Assurance and Testing'  ## Dev 'Software Development'
 
 question_answer_map = {
+    "How many years of experience do you have in Selenium Webdriver?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "Are you currently residing in Pune, Maharashtra or willing to relocate to Pune, Maharashtra?":ANSWER_YES,
+    "Are you currently residing in Pune or willing to relocate to Pune?":ANSWER_YES,
+    "If you learned about this position from an Entrata employee,what is the full name of employee that referred you? (Write NA if it is not applicable) Work Eligibility Status":"NA",
+    "How many years of experience do you have in Pytest Framework?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "Do you have hands-on experience with Microsoft Dynamics 365 F&O automation testing?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of experience do you have in IOS?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "Highest Qualification":"BTECH",
+    "Do you have exp in API Testing?":ANSWER_YES,
+    "Total Years of experience working with Cypress?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of work experience do you have with Payment Gateways?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "What is your Total Years of experience?":YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of work experience do you have with Digital Integration?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
