@@ -7,7 +7,7 @@ PASSWORD = "Harsh@555"
 JOB_SEARCH_TITLES = 'SDET, python test automation, Software testing, Automation testing, software developer engineer in test, python automation test engineer, '
 JOB_SEARCH_LOCATIONS = 'Pune, Bengaluru, Indore, India, Hyderabad, '
 
-LINKEDIN_JOB_SEARCH_TITLES = 'SDET' #'python test automation'
+LINKEDIN_JOB_SEARCH_TITLES = 'python test automation' #'SDET'
 LINKEDIN_JOB_SEARCH_LOCATIONS = 'India'
 
 USER_FULL_NAME = "Harshal Suryakant Shinde"
@@ -45,6 +45,23 @@ SKILLS = "Manual Testing, Automated Testing, API, Playwright, PyTest, Postman, S
 ROLE_CATEGORY_SECTION = 'Quality Assurance and Testing'  ## Dev 'Software Development'
 
 question_answer_map = {
+    "How many years of work experience do you have with Back-End Web Development?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of hands-on experience do you have with UC4/ Automation Engineering (AE)?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of work experience do you have with Hadoop?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of work experience do you have with Data Engineering?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of work experience do you have with Virtual Extensible LAN (VXLAN)?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "EXPECTED CTC?":EXPECTED_CTC_NUMERIC,
+    "How many years of work experience do you have with Guidewire ClaimCenter?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "What is your current notice period in days or months?":NOTICE_PERIOD_IN_DAYS,
+    "How many years of experience do you have with NLP?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "HOW MANY YEARS OF EXPERIENCE DO YOU HAVE DATA ENGINEER?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of work experience do you have with SAP System?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of work experience do you have with Generative AI Tools?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of experience do you have in a product-based tech company?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How soon (in days) can you join the company?":NOTICE_PERIOD_IN_DAYS,
+    "What is your official notice period? If serving, could you mention the last working day?":NOTICE_PERIOD_IN_DAYS,
+    "What is your NP? Mention in days 0-15?":NOTICE_PERIOD_IN_DAYS,
+    "Can you let me know your notice period?":NOTICE_PERIOD_IN_DAYS,
     "What is your notice period in days? [Please mention remaining days of notice if you are already serving notice.]":NOTICE_PERIOD_IN_DAYS,
     "Automation Experience":YEARS_OF_EXPERIENCE_IN_CORE,
     "Total years of hands-on experience in building ,deploying and managing AI models ?":YEARS_OF_EXPERIENCE_IN_CORE,
