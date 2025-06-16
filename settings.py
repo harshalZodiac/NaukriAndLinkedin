@@ -45,6 +45,9 @@ SKILLS = "Manual Testing, Automated Testing, API, Playwright, PyTest, Postman, S
 ROLE_CATEGORY_SECTION = 'Quality Assurance and Testing'  ## Dev 'Software Development'
 
 question_answer_map = {
+    "Please specify the years of experience":YEARS_OF_EXPERIENCE_IN_CORE,
+    "What's your Current CTC ?":CURRENT_CTC_NUMERIC,
+    "What is your total experience ?":YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of work experience do you have with Networking?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of Technology, Information and Internet experience do you currently have?":YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of exp you have for Playwright ?":YEARS_OF_EXPERIENCE_IN_CORE,

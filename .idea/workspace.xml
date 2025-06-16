@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="849a781d-8612-4635-8aec-9afb027c974e" name="Changes" comment="Adding few more questions 32">
+    <list default="true" id="849a781d-8612-4635-8aec-9afb027c974e" name="Changes" comment="Adding few more questions 33">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/external_links.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tests/external_links.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,14 +197,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1745641894439</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Removing commented code">
-      <option name="closed" value="true" />
-      <created>1747022450886</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1747022450886</updated>
     </task>
     <task id="LOCAL-00020" summary="updating git ignore">
       <option name="closed" value="true" />
@@ -591,7 +582,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749966099063</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="Adding few more questions 33">
+      <option name="closed" value="true" />
+      <created>1750001037070</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1750001037070</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -606,7 +605,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding few more questions 8" />
     <MESSAGE value="Adding few more questions 9" />
     <MESSAGE value="Adding few more questions 10" />
     <MESSAGE value="Adding few more questions 11" />
@@ -631,6 +629,7 @@
     <MESSAGE value="Adding few more questions 30" />
     <MESSAGE value="Adding few more questions 31" />
     <MESSAGE value="Adding few more questions 32" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding few more questions 32" />
+    <MESSAGE value="Adding few more questions 33" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding few more questions 33" />
   </component>
 </project>
