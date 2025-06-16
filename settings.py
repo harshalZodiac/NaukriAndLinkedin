@@ -10,6 +10,7 @@ JOB_SEARCH_LOCATIONS = 'Pune, Bengaluru, Indore, India, Hyderabad, '
 LINKEDIN_JOB_SEARCH_TITLES = 'python test automation' #'SDET'
 LINKEDIN_JOB_SEARCH_LOCATIONS = 'India'
 
+SALUTATION = 'Mr.'
 USER_FULL_NAME = "Harshal Suryakant Shinde"
 
 YEARS_OF_EXPERIENCE_IN_CORE = '5'
@@ -45,6 +46,16 @@ SKILLS = "Manual Testing, Automated Testing, API, Playwright, PyTest, Postman, S
 ROLE_CATEGORY_SECTION = 'Quality Assurance and Testing'  ## Dev 'Software Development'
 
 question_answer_map = {
+    "Do you write SQL queries?":ANSWER_YES,
+    "Experience in iOS Testing":ANSWER_YES,
+    "What is your CTC?":CURRENT_CTC_NUMERIC,
+    "The Technical round is Face-To-Face in our Bangalore office will you be able to attend it?":ANSWER_YES,
+    "Title":'SALUTATION',
+    "Email ID":USERNAME,
+    "How many years of work experience do you have with Web Testing?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of work experience do you have with Production Support?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of work experience do you have with Mobile Testing?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "Postal Code":COUNTRY_CODE,
     "This role requires working from the office 5 days a week (with flexible working hours). Are you comfortable with this arrangement?": ANSWER_YES,
     "How many years of experience do you have with API Testing?": YEARS_OF_EXPERIENCE_IN_CORE,
     "Exp in Python?": YEARS_OF_EXPERIENCE_IN_CORE,
@@ -241,14 +252,14 @@ question_answer_map = {
     "Are you an immediate joiner? Can you join us within 7 days?":ANSWER_YES,
     "How many years of experience in python with selenium":YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of experience do you have in Automation Testing ?":YEARS_OF_EXPERIENCE_IN_CORE,
-    "SALUTATION":'Mr.',
+    "SALUTATION":'SALUTATION',
     "Are you currently residing in Ahmedabad or willing to relocate to Ahmedabad or Abu Dhabi?":ANSWER_YES,
     "How much experience you have in Python Automation Testing?": YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of experience do you have in API testing?": YEARS_OF_EXPERIENCE_IN_CORE,
     "Full Name as per Aadhar? and Current Payroll Company Name?": f'{USER_FULL_NAME} & {CURRENT_ORGANIZATION}',
     "How many years of experience do you have in Playwright Automation?": YEARS_OF_EXPERIENCE_IN_CORE,
     "Relevant Experience as QA - Quality Assurance Engineer?": YEARS_OF_EXPERIENCE_IN_CORE,
-    "Salutation": 'Mr.',
+    "Salutation": 'SALUTATION',
     "How many years of work experience do you have with Global Distribution Systems (GDS)?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "Current company": CURRENT_ORGANIZATION,
     "How many years of work experience do you have with Embedded testing": YEARS_OF_EXPERIENCE_IN_CORE,
