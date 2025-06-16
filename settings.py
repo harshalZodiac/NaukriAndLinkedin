@@ -45,6 +45,15 @@ SKILLS = "Manual Testing, Automated Testing, API, Playwright, PyTest, Postman, S
 ROLE_CATEGORY_SECTION = 'Quality Assurance and Testing'  ## Dev 'Software Development'
 
 question_answer_map = {
+    "This role requires working from the office 5 days a week (with flexible working hours). Are you comfortable with this arrangement?": ANSWER_YES,
+    "How many years of experience do you have with API Testing?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "Exp in Python?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "What is your experience in Automation Testing?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "Do you have experience in Performance Monitoring Tools, if yes which tool?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "What is your availability?": "Anytime",
+    "What is your official notice period?": NOTICE_PERIOD_IN_DAYS,
+    "Do you have experience in Automation testing?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "Contact Number":MOBILE_NUMBER,
     "Please specify the years of experience":YEARS_OF_EXPERIENCE_IN_CORE,
     "What's your Current CTC ?":CURRENT_CTC_NUMERIC,
     "What is your total experience ?":YEARS_OF_EXPERIENCE_IN_CORE,
