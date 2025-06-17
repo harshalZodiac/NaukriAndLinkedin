@@ -17,6 +17,10 @@ class NaukriJobApplyPage:
         self.internal_job_apply_success = NaukriJobApplicationLocators.JOB_APPLY_SUCCESS
         self.question_placeholder = NaukriJobApplicationLocators.QUESTION_PLACEHOLDER
         self.i_am_interested = NaukriJobApplicationLocators.I_AM_INTERESTED
+        self.radio_button = NaukriJobApplicationLocators.RADIO_BUTTON_ANSWER
+        self.radio_answer = NaukriJobApplicationLocators.RADIO_OPTION_SELECTION
+        self.save_button = NaukriJobApplicationLocators.SAVE_BUTTON
+        self.radio_options = NaukriJobApplicationLocators.RADIO_OPTIONS
 
     def apply_for_job(self, job_index):
         with self.page.context.expect_page() as new_tab_info:
@@ -43,11 +47,30 @@ class NaukriJobApplyPage:
                     question_locator = new_tab.locator(self.question_placeholder).last
                     answer_box = new_tab.locator(self.answer_placeholder).first
 
+                    question_text = question_locator.inner_text().strip()
+                    answer = settings.question_answer_map.get(question_text)
+
+                    if new_tab.locator(self.radio_button).last.is_visible():
+                        print(f"Question: {question_text}")
+
+                        radio_labels = new_tab.locator(self.radio_options)
+                        count = radio_labels.count()
+
+                        print("Available Options:")
+                        for i in range(count):
+                            text = radio_labels.nth(i).inner_text()
+                            print(f"- {text}")
+
+                        radio_answer_selection = self.radio_answer.format(answer_value=answer)
+                        new_tab.locator(radio_answer_selection).first.wait_for(state="visible")
+                        new_tab.locator(radio_answer_selection).click()
+                        time.sleep(2)
+                        new_tab.locator(self.save_button).last.wait_for(state="visible")
+                        new_tab.locator(self.save_button).last.click()
+
                     if not question_locator.is_visible():
                         break
 
-                    question_text = question_locator.inner_text().strip()
-                    answer = settings.question_answer_map.get(question_text)
 
                     if question_text == "Thank you for your responses.":
                         print("[Info] End of section detected.")

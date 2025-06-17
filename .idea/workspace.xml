@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="849a781d-8612-4635-8aec-9afb027c974e" name="Changes" comment="Adding few more questions 35">
+    <list default="true" id="849a781d-8612-4635-8aec-9afb027c974e" name="Changes" comment="Adding few more questions 36">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/locators_naukri.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/locators_naukri.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_objects/naukri/job_apply_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/naukri/job_apply_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/external_links.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tests/external_links.txt" afterDir="false" />
     </list>
@@ -99,7 +101,7 @@
       <recent name="D:\PythonProject\Naukri" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_naukri.TestNaukriJobApply.test_naukri_apply">
+  <component name="RunManager" selected="Python tests.Python tests for test_linkedin.TestLinkedinApply.test_linkedin_job_apply">
     <configuration name="Python tests for test_linkedin.TestLinkedinApply" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Naukri" />
       <option name="ENV_FILES" value="" />
@@ -177,8 +179,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_naukri.TestNaukriJobApply.test_naukri_apply" />
         <item itemvalue="Python tests.Python tests for test_linkedin.TestLinkedinApply.test_linkedin_job_apply" />
+        <item itemvalue="Python tests.Python tests for test_naukri.TestNaukriJobApply.test_naukri_apply" />
         <item itemvalue="Python tests.Python tests for test_linkedin.TestLinkedinApply" />
         <item itemvalue="Python tests.Python tests for test_naukri.TestNaukriJobApply" />
         <item itemvalue="Python tests.Python tests for test_linkedin.TestLinkedinProfile.test_linkedin_profile_random_edit" />
@@ -199,14 +201,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1745641894439</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Handling role category filter correctly">
-      <option name="closed" value="true" />
-      <created>1747145422370</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1747145422370</updated>
     </task>
     <task id="LOCAL-00023" summary="Added few more questions">
       <option name="closed" value="true" />
@@ -592,7 +586,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750081572463</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="Adding few more questions 36">
+      <option name="closed" value="true" />
+      <created>1750084199694</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1750084199694</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -607,7 +609,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding few more questions 11" />
     <MESSAGE value="Adding few more questions 12" />
     <MESSAGE value="Adding few more questions 13" />
     <MESSAGE value="Adding few more questions 14" />
@@ -632,6 +633,7 @@
     <MESSAGE value="Adding few more questions 33" />
     <MESSAGE value="Adding few more questions 34" />
     <MESSAGE value="Adding few more questions 35" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding few more questions 35" />
+    <MESSAGE value="Adding few more questions 36" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding few more questions 36" />
   </component>
 </project>
