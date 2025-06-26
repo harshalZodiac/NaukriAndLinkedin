@@ -44,6 +44,10 @@ class NaukriJobApplyPage:
 
             while True:
                 try:
+                    if new_tab.locator(self.internal_job_apply_success).is_visible():
+                        print("[Success] Application submitted successfully.")
+                        new_tab.close()
+                        break
                     question_locator = new_tab.locator(self.question_placeholder).last
                     answer_box = new_tab.locator(self.answer_placeholder).first
 
@@ -76,6 +80,9 @@ class NaukriJobApplyPage:
                         print("[Info] End of section detected.")
                         break
 
+                    # if new_tab.locator(self.internal_job_apply_success).is_visible():
+                    #     new_tab.close()
+
                     if answer:
                         answer_box.fill(answer)
                         time.sleep(0.5)
@@ -88,5 +95,3 @@ class NaukriJobApplyPage:
                 except Exception as e:
                     print(f"Error while handling dynamic questions: {e}")
                     break
-            if new_tab.locator(self.internal_job_apply_success).is_visible():
-                new_tab.close()

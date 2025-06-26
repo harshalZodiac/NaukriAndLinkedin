@@ -28,6 +28,7 @@ class NaukriJobSearchLocators:
     SEARCH_BUTTON = '//span[text()="Search"]'
     FILTER_FRESHNESS = '#filter-freshness'
     FILTER_FRESHNESS_LAST_1_DAY = '//span[text()="Last 1 day"]'
+    FILTER_FRESHNESS_LAST_3_DAYS = '//span[text()="Last 3 days"]'
     NO_OF_JOBS = '#jobs-list-header .styles_count-string__DlPaZ'
     APPLIED_FILTERS = '//a[contains(@class, "styles_appliedTxt__UmIjs") and normalize-space(.)="Applied ({number_of_filters_applied})"]'
 

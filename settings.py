@@ -7,10 +7,10 @@ PASSWORD = "Harsh@555"
 JOB_SEARCH_TITLES = 'SDET, python test automation, Software testing, Automation testing, software developer engineer in test, python automation test engineer, '
 JOB_SEARCH_LOCATIONS = 'Pune, Bengaluru, Indore, India, Hyderabad, '
 
-LINKEDIN_JOB_SEARCH_TITLES = 'python test automation' #'SDET'
-LINKEDIN_JOB_SEARCH_LOCATIONS = 'India'
+# LINKEDIN_JOB_SEARCH_INPUT = 'Looking for Python-based SDET or QA Automation roles using Playwright, Selenium, or PyTest in Pune, Bangalore, or Remote Easy Apply posted in the past 24 hours'
+LINKEDIN_JOB_SEARCH_INPUT = 'Looking for Python-based SDET or QA Automation roles using Playwright, Selenium, or PyTest in Pune, Bangalore, or Remote'
 
-SALUTATION = 'Mr.'
+SALUTATION = 'Mr'
 USER_FULL_NAME = "Harshal Suryakant Shinde"
 
 YEARS_OF_EXPERIENCE_IN_CORE = '5'
@@ -41,11 +41,45 @@ CURRENT_LOCATION = 'Bengaluru, Karnataka, India'
 PREFERRED_LOCATION = 'Pune, Bengaluru, Remote, Any city in india'
 CURRENT_LOCATION_IS_BANGALORE = 'Currently staying in bengaluru'
 NOTICE_PERIOD_IN_DAYS = '15'
+NOTICE_PERIOD_RADIO_OPTION = '15 Days or less'
 OFFICIAL_NOTICE_PERIOD_IN_DAYS = '60'
 SKILLS = "Manual Testing, Automated Testing, API, Playwright, PyTest, Postman, Selenium, Accessibility Testing, CI/CD Pipeline Configuration, Cross-Browser Testing & Responsive Testing"
 ROLE_CATEGORY_SECTION = 'Quality Assurance and Testing'  ## Dev 'Software Development'
 
 question_answer_map = {
+    "How many years of experience do you have in JAVA/Python?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in AI?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of experience do you have in Python/Cypress?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "Language Proficiencies": "English, Marathi, Hindi",
+    "How many years of experience do you have in Shell Scripting?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "Highest Educational Qualification": "BTech",
+    "Total years of experience":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in Software Test Automation?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "Are you interested in C2H":ANSWER_YES,
+    "Highest Level of Education Obtained":"Bachelors Degree",
+    "How much year of Experience do you have in Python & Robot Framework":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience in python automation?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of exp in oops?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in linux?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of experience do you have in Resiliency?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of experience do you have in Playwright?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in Rest Assured ?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "1. Total Years of QA Experience (Manual & Automation):":YEARS_OF_EXPERIENCE_IN_CORE,
+    "Total years of experince":YEARS_OF_EXPERIENCE_IN_CORE,
+    "If serving, Last working day":NOTICE_PERIOD_IN_DAYS,
+    "Are you currently residing in Chennai or willing to relocate to Chennai?":ANSWER_YES,
+    "How many years of experience do you have in Quality Testing?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "Experience in Automation and Manual Testing..?[5yrs must]":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in Selenium Java?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "Are you willing to attend the Face to Face interview for 2nd round?":ANSWER_YES,
+    "Interested for TCS for permanent role ?":ANSWER_YES,
+    "How many years of experience do you have in Data visualization?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in Selenium Testing with Phython?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in CRM?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "Do you have coding experience in Java/ Python": ANSWER_YES,
+    "How Much years of Experience do you have in IOT Domain?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many yrs of exp in linux?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of exp you have in User Space / Kernel Space?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of work experience do you have with Database Queries?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of work experience do you have with Application Virtualization?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of work experience do you have with Quality Analysis?":YEARS_OF_EXPERIENCE_IN_CORE,
@@ -70,6 +104,8 @@ question_answer_map = {
     "Please mention your notice period in number of days":NOTICE_PERIOD_IN_DAYS,
     "Do you have experience in designing and executing end-to-end functional test cases for web or API-based applications?":ANSWER_YES,
     "Willing to Relocate?": ANSWER_YES,
+    "Any Relatives Working in R Systems?":ANSWER_NO,
+    "Have you worked on JUnit":ANSWER_YES,
     "Select Your Experience":"5+",
     "Are you willing to attend f2f on Saturday 21st ?":ANSWER_YES,
     "Do you have PF service history for all the employer ?":ANSWER_YES,
@@ -99,7 +135,7 @@ question_answer_map = {
     "Experience in iOS Testing":ANSWER_YES,
     "What is your CTC?":CURRENT_CTC_NUMERIC,
     "The Technical round is Face-To-Face in our Bangalore office will you be able to attend it?":ANSWER_YES,
-    "Title":'SALUTATION',
+    "Title":SALUTATION,
     "Email ID":USERNAME,
     "How many years of work experience do you have with Web Testing?":YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of work experience do you have with Production Support?":YEARS_OF_EXPERIENCE_IN_CORE,
@@ -168,7 +204,17 @@ question_answer_map = {
     "How many years of experience do you have in Pytest Framework?": YEARS_OF_EXPERIENCE_IN_CORE,
     "Do you have hands-on experience with Microsoft Dynamics 365 F&O automation testing?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of experience do you have in IOS?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
-    "Highest Qualification":"BTECH",
+    "Highest Qualification":"Graduation",
+    "How many years of experience do you have in UAT?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in Powershell?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of experience do you have in Web?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "Available for interview on 28-Jun-25?(Face to Face) in Greater Noida Office?":ANSWER_YES,
+    "How many years of experience as an Automation Tester?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in CI/CD?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience in Automation?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "What is your notice period/ LWD?":NOTICE_PERIOD_IN_DAYS,
+    "How many years of experience do you have in Storage Testing?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "Relevant experience into Python ?":YEARS_OF_EXPERIENCE_IN_CORE,
     "Do you have exp in API Testing?":ANSWER_YES,
     "Total Years of experience working with Cypress?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of work experience do you have with Payment Gateways?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
@@ -300,14 +346,15 @@ question_answer_map = {
     "Are you an immediate joiner? Can you join us within 7 days?":ANSWER_YES,
     "How many years of experience in python with selenium":YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of experience do you have in Automation Testing ?":YEARS_OF_EXPERIENCE_IN_CORE,
-    "SALUTATION":'SALUTATION',
+    "SALUTATION":SALUTATION,
+    "Do you have expertise in Robot Framework?":ANSWER_YES,
     "Are you currently residing in Ahmedabad or willing to relocate to Ahmedabad or Abu Dhabi?":ANSWER_YES,
     "How much experience you have in Python Automation Testing?": YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of experience do you have in API testing?": YEARS_OF_EXPERIENCE_IN_CORE,
     "Full Name as per Aadhar? and Current Payroll Company Name?": f'{USER_FULL_NAME} & {CURRENT_ORGANIZATION}',
     "How many years of experience do you have in Playwright Automation?": YEARS_OF_EXPERIENCE_IN_CORE,
     "Relevant Experience as QA - Quality Assurance Engineer?": YEARS_OF_EXPERIENCE_IN_CORE,
-    "Salutation": 'SALUTATION',
+    "Salutation": SALUTATION,
     "How many years of work experience do you have with Global Distribution Systems (GDS)?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "Current company": CURRENT_ORGANIZATION,
     "How many years of work experience do you have with Embedded testing": YEARS_OF_EXPERIENCE_IN_CORE,
@@ -376,6 +423,7 @@ question_answer_map = {
     "What is your desired CTC?": EXPECTED_CTC_NUMERIC,
     "Current Location (City)": CURRENT_LOCATION,
     "Are your available for in-person interview on Tuesday-3-June-2025": ANSWER_YES,
+    "Are you legally authorized to work in the country where this job is located?":ANSWER_YES,
     "Are you comfortable working at Client's office in Chennai?": ANSWER_YES,
     "Are you ready to relocate to Bangalore?": ANSWER_YES,
     "Total Experience(In years)": YEARS_OF_EXPERIENCE_IN_CORE,
@@ -532,6 +580,8 @@ question_answer_map = {
     "What is your Expected Salary per annum?": EXPECTED_CTC_NUMERIC,
     "Total IT Experience": YEARS_OF_EXPERIENCE_IN_CORE,
     "What is your Notice period in Days?": NOTICE_PERIOD_IN_DAYS,
+    "Are you available for Face to Face Interview":ANSWER_YES,
+    "Are you available for Face to face interview?":ANSWER_YES,
     "How many years of work experience do you have with Mainframe?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "What did you do during your last professionnal experience?": YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of work experience do you have with LabVIEW?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
@@ -754,7 +804,6 @@ question_answer_map = {
     "What is your current CTC in Lakhs per annum?": CURRENT_CTC_NUMERIC,
     "What is your current annual CTC in INR ?": CURRENT_CTC_FULL_NUMERIC,
     "Notice Period": NOTICE_PERIOD_IN_DAYS,
-    "What is your notice period?": NOTICE_PERIOD_IN_DAYS,
     "What is your current Notice Period?": NOTICE_PERIOD_IN_DAYS,
     "First Name": FIRST_NAME,
     "Date of Birth": DATE_OF_BIRTH,
@@ -763,6 +812,8 @@ question_answer_map = {
     "Last Name": LAST_NAME,
     "Current Location": CURRENT_LOCATION,
     "Preferred Location": CURRENT_LOCATION,
+    "What is your notice period?": NOTICE_PERIOD_RADIO_OPTION,
+    "Are you interested in C2H Positions":ANSWER_YES,
     "How many years of Experience do you have in ETL resting?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of experience do you have in Mobile Testing?  ": YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many relevant years of experience into Python development?": YEARS_OF_EXPERIENCE_IN_NON_CORE

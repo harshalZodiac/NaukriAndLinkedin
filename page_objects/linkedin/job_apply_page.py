@@ -8,7 +8,7 @@ class LinkedinJobApplyPage:
     def __init__(self, page:Page):
         self.page = page
         self.job_apply_section = LinkedInJobSearchLocators.JOB_SECTION
-        self.job_search_input = LinkedInJobSearchLocators.JOB_TITLE
+        self.job_search_input = LinkedInJobSearchLocators.JOB_SEARCH_INPUT
         self.job_section_side_bar = LinkedInJobSearchLocators.JOB_SECTION_SIDE_BAR
         self.date_posted_filter = LinkedInJobSearchLocators.DATE_POSTED_FILTER_OPTIONS
         self.date_posted_last_one_day = LinkedInJobSearchLocators.DATE_POSTED_LAST_ONE_DAY
@@ -32,8 +32,7 @@ class LinkedinJobApplyPage:
 
     def provide_job_search_input(self):
         self.page.locator(self.job_section_side_bar).first.wait_for(state="visible")
-        self.page.locator(self.job_search_input).first.fill(settings.LINKEDIN_JOB_SEARCH_TITLES)
-        self.page.locator(self.job_search_input).last.fill(settings.LINKEDIN_JOB_SEARCH_LOCATIONS)
+        self.page.locator(self.job_search_input).first.fill(settings.LINKEDIN_JOB_SEARCH_INPUT)
         time.sleep(2)
         self.page.keyboard.press("Enter")
 
