@@ -19,7 +19,7 @@ class NaukriJobSearchPage:
         self.search_button = NaukriJobSearchLocators.SEARCH_BUTTON
         self.years_of_experience = NaukriJobSearchLocators.YEARS_OF_EXPERIENCE
         self.freshness_filter = NaukriJobSearchLocators.FILTER_FRESHNESS
-        # self.freshness_filter_last_single_day = NaukriJobSearchLocators.FILTER_FRESHNESS_LAST_1_DAY
+        self.freshness_filter_last_single_day = NaukriJobSearchLocators.FILTER_FRESHNESS_LAST_1_DAY
         self.freshness_filter_last_three_days = NaukriJobSearchLocators.FILTER_FRESHNESS_LAST_3_DAYS
         self.filters_applied = NaukriJobSearchLocators.APPLIED_FILTERS
         self.total_number_of_jobs_title = NaukriJobSearchLocators.NO_OF_JOBS
@@ -37,8 +37,8 @@ class NaukriJobSearchPage:
 
     def apply_freshness_filter(self):
         self.page.locator(self.freshness_filter).click()
-        # self.page.locator(self.freshness_filter_last_single_day).click()
-        self.page.locator(self.freshness_filter_last_three_days).click()
+        self.page.locator(self.freshness_filter_last_single_day).click()
+        # self.page.locator(self.freshness_filter_last_three_days).click()
         self.validate_number_of_filters_applied('2')
 
     def apply_role_category_filter(self):
