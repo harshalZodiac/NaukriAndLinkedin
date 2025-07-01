@@ -16,10 +16,10 @@ USER_FULL_NAME = "Harshal Suryakant Shinde"
 YEARS_OF_EXPERIENCE_IN_CORE = '5'
 YEARS_OF_EXPERIENCE_IN_NON_CORE = '3'
 
-EXPECTED_CTC_FULL_NUMERIC = '1500000'
+EXPECTED_CTC_FULL_NUMERIC = '1600000'
 CURRENT_CTC_FULL_NUMERIC = '700000'
 
-EXPECTED_CTC_NUMERIC = '15'
+EXPECTED_CTC_NUMERIC = '16'
 CURRENT_CTC_NUMERIC = '7'
 
 ANSWER_YES = 'Yes'
@@ -200,6 +200,24 @@ question_answer_map = {
     "Are you Interested in Contract to Hire":ANSWER_YES,
     "Indicate your CTC expectations (INR) e.g.: 1500000":EXPECTED_CTC_FULL_NUMERIC,
     "Work Eligibility Status":"I am eligible to work in the country of my application without sponsorship now or in the future",
+    "How many years of experience do youhave in sql server?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "Please Mention your Current Location ?":CURRENT_LOCATION,
+    "How many years do you have in Appium?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "Are you Interested in working from 2PM to11PM shift":ANSWER_YES,
+    "What is your Expected Salary ?":EXPECTED_CTC_NUMERIC,
+    "C# experience ?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "Can you able to join immediately?":ANSWER_YES,
+    "Are you in Bengaluru?":ANSWER_YES,
+    "Do you have experience with testing Desktop applications?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "Expected Salary (Numeric Input Only)":EXPECTED_CTC_NUMERIC,
+    "Total Experience ?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in Banking?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of experience do you have in Security Testing?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "Do you have experience with Automation Testing?":ANSWER_YES,
+    "How many years of experience do you have in Api Test Automation?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in Python with selenium testing ?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "What is relevant experience in SDET ?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in T-SQL?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "Are you currently residing in Bengaluru, Karnataka or willing to relocate to Bengaluru, Karnataka?":ANSWER_YES,
     "How many years of work experience do you have in total?":YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of experience do you have in Selenium Webdriver?":YEARS_OF_EXPERIENCE_IN_CORE,
