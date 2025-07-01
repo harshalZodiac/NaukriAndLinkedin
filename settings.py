@@ -8,7 +8,7 @@ JOB_SEARCH_TITLES = 'SDET, python test automation, Software testing, Automation 
 JOB_SEARCH_LOCATIONS = 'Pune, Bengaluru, Indore, India, Hyderabad, '
 
 # LINKEDIN_JOB_SEARCH_INPUT = 'Looking for Python-based SDET or QA Automation roles using Playwright, Selenium, or PyTest in Pune, Bangalore, or Remote Easy Apply posted in the past 24 hours'
-LINKEDIN_JOB_SEARCH_INPUT = 'Looking for Python-based SDET or QA Automation roles using Playwright, Selenium, or PyTest in Pune, Bangalore, or Remote'
+LINKEDIN_JOB_SEARCH_INPUT = 'senior automation test in india'
 
 SALUTATION = 'Mr'
 USER_FULL_NAME = "Harshal Suryakant Shinde"
@@ -42,11 +42,13 @@ PREFERRED_LOCATION = 'Pune, Bengaluru, Remote, Any city in india'
 CURRENT_LOCATION_IS_BANGALORE = 'Currently staying in bengaluru'
 NOTICE_PERIOD_IN_DAYS = '15'
 NOTICE_PERIOD_RADIO_OPTION = '15 Days or less'
-OFFICIAL_NOTICE_PERIOD_IN_DAYS = '60'
+OFFICIAL_NOTICE_PERIOD_IN_DAYS = '52'
 SKILLS = "Manual Testing, Automated Testing, API, Playwright, PyTest, Postman, Selenium, Accessibility Testing, CI/CD Pipeline Configuration, Cross-Browser Testing & Responsive Testing"
 ROLE_CATEGORY_SECTION = 'Quality Assurance and Testing'  ## Dev 'Software Development'
 
 question_answer_map = {
+    "How many years of work experience do you have with ATMs?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of work experience do you have with Core Java?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of experience do you have in JAVA/Python?":YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of experience do you have in AI?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of experience do you have in Python/Cypress?":YEARS_OF_EXPERIENCE_IN_CORE,
@@ -54,6 +56,7 @@ question_answer_map = {
     "How many years of experience do you have in Shell Scripting?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "Highest Educational Qualification": "BTech",
     "Total years of experience":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience in playwright":YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of experience do you have in Software Test Automation?":YEARS_OF_EXPERIENCE_IN_CORE,
     "Are you interested in C2H":ANSWER_YES,
     "Highest Level of Education Obtained":"Bachelors Degree",
