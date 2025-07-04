@@ -1,3 +1,11 @@
+from datetime import date
+
+today = date.today()
+
+target_date = date(2025, 8, 22)
+
+days_remaining = (target_date - today).days
+
 LINKEDIN_URL = 'https://www.linkedin.com/login'
 NAUKRI_URL = "https://www.naukri.com/"
 
@@ -7,8 +15,7 @@ PASSWORD = "Harsh@555"
 JOB_SEARCH_TITLES = 'SDET, python test automation, Software testing, Automation testing, software developer engineer in test, python automation test engineer, '
 JOB_SEARCH_LOCATIONS = 'Pune, Bengaluru, Indore, India, Hyderabad, '
 
-# LINKEDIN_JOB_SEARCH_INPUT = 'Looking for Python-based SDET or QA Automation roles using Playwright, Selenium, or PyTest in Pune, Bangalore, or Remote Easy Apply posted in the past 24 hours'
-LINKEDIN_JOB_SEARCH_INPUT = 'senior automation test in india'
+LINKEDIN_JOB_SEARCH_INPUT = 'SDET in india'
 
 SALUTATION = 'Mr'
 USER_FULL_NAME = "Harshal Suryakant Shinde"
@@ -29,7 +36,7 @@ ANSWER_ALL = 'ALL'
 
 PROGRAMMING_LANGUAGE = 'Python'
 CURRENT_ORGANIZATION = 'SASKEN Technology (ABB INDIA)'
-
+LINKEDIN_PROFILE_URL = "https://www.linkedin.com/in/harshal-shinde-70a0b3290"
 FIRST_NAME = 'Harshal'
 LAST_NAME = 'Shinde'
 DATE_OF_BIRTH = '29/12/1998'
@@ -40,13 +47,43 @@ MOBILE_NUMBER = '9168921075'
 CURRENT_LOCATION = 'Bengaluru, Karnataka, India'
 PREFERRED_LOCATION = 'Pune, Bengaluru, Remote, Any city in india'
 CURRENT_LOCATION_IS_BANGALORE = 'Currently staying in bengaluru'
-NOTICE_PERIOD_IN_DAYS = '15'
-NOTICE_PERIOD_RADIO_OPTION = '15 Days or less'
-OFFICIAL_NOTICE_PERIOD_IN_DAYS = '52'
+NOTICE_PERIOD_IN_DAYS = f'{str(days_remaining)}'
+NOTICE_PERIOD_RADIO_OPTION = 'Serving Notice Period'
 SKILLS = "Manual Testing, Automated Testing, API, Playwright, PyTest, Postman, Selenium, Accessibility Testing, CI/CD Pipeline Configuration, Cross-Browser Testing & Responsive Testing"
 ROLE_CATEGORY_SECTION = 'Quality Assurance and Testing'  ## Dev 'Software Development'
+PAN_CARD= 'HOQPS3028F'
 
 question_answer_map = {
+    "Are you currently residing in Nagpur, Maharashtra or willing to relocate to Nagpur, Maharashtra?":ANSWER_YES,
+    "Are you willing to travel to Koramangala, Bengaluru?":ANSWER_YES,
+    "Skill Category":"Python",
+    "What is your current CTC in Lacs per annum?":CURRENT_CTC_NUMERIC,
+    "How many years of experience do you have in C# Testing?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many year of experience do you have in Automation Testing":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in Mobile Automation Testing?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "What is your expected CTC in Lacs per annum?":EXPECTED_CTC_NUMERIC,
+    "Current Location?":CURRENT_LOCATION,
+    "How many years of experience do you have in cucumber?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of total IT Experience?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have with playwright?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "Please rate your communication skills out of 10.":"9",
+    "Linkedin Profile URL":LINKEDIN_PROFILE_URL,
+    "What's your total years of experience?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in Modbus?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "Are you Available for Face to Face discussion and When? (NO Weekends)":ANSWER_YES,
+    "Are you currently residing in Jaipur or willing to relocate to Jaipur?":ANSWER_YES,
+    "Have you registered in LTI Mindtree already?":ANSWER_YES,
+    "Do you Have any experience in E-Commerce domain ?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in Networking Protocols?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "What is your exp. in automation ?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "Are you okay working from office in Bangalore 5 days a week?":ANSWER_YES,
+    "How many years of experience do you have in Jira, Jenkins & Github?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in Automation Testing with python?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "Will you prefer Pune as work location?Current Payroll Company Name?":CURRENT_ORGANIZATION,
+    "How many years of experience do you have in Networking?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of experience do you have in System Testing?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in Banking Domain?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of experience do you have in Katalon?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of work experience do you have with ATMs?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of work experience do you have with Core Java?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of experience do you have in JAVA/Python?":YEARS_OF_EXPERIENCE_IN_CORE,
@@ -217,6 +254,12 @@ question_answer_map = {
     "How many years of experience do you have in Banking?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of experience do you have in Security Testing?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "Do you have experience with Automation Testing?":ANSWER_YES,
+    "Do you have 5+ years of experience in a software testing role?":ANSWER_YES,
+    "Please share how many years of experience you have in testing?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "What is your expected CTC in Lakhs (INR) ?":EXPECTED_CTC_NUMERIC,
+    "PAN Card Number":PAN_CARD,
+    "How many years of experience do you have in Java script?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of experience do you have in robot framework?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of experience do you have in Api Test Automation?":YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of experience do you have in Python with selenium testing ?":YEARS_OF_EXPERIENCE_IN_CORE,
     "What is relevant experience in SDET ?":YEARS_OF_EXPERIENCE_IN_CORE,
@@ -262,7 +305,7 @@ question_answer_map = {
     "How many years of experience do you have in PythonTesting?":YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of experience do you have in Software Testing?":YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of experience do you have in Web Testing?":YEARS_OF_EXPERIENCE_IN_CORE,
-    "What is your Notice Period?":NOTICE_PERIOD_IN_DAYS,
+    "What is your Notice Period?":NOTICE_PERIOD_RADIO_OPTION,
     "What is your expected CTC in LPA?":EXPECTED_CTC_NUMERIC,
     "How many years of work experience do you have with Git?":YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of work experience do you have with Coding Practices?":YEARS_OF_EXPERIENCE_IN_CORE,
@@ -431,8 +474,8 @@ question_answer_map = {
     "Current CTC? And Expected CTC?":f'{CURRENT_CTC_NUMERIC} & {EXPECTED_CTC_NUMERIC}',
     "How many years of experience do you have in API Testing ?":YEARS_OF_EXPERIENCE_IN_CORE,
     "Are you available for F2F interview on June 14th ??":ANSWER_YES,
-    "Skill Category": "Python",
     "How many years of experience do you have in JIRA?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of work experience do you have with Microsoft Azure?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of work experience do you have with Operating System Administration?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of experience do you have in Golang?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of experience do you have in Manual Testing ?":	YEARS_OF_EXPERIENCE_IN_CORE,
@@ -493,6 +536,14 @@ question_answer_map = {
     "How many years of experience do you have in Web Application Testing?": YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of work experience do you have in Performance Testing using Jmeter?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "ECTC": EXPECTED_CTC_NUMERIC,
+    "Are you proficient in Linux Environment or Linux commands ?":ANSWER_YES,
+    "Do you have experience in Tpt (3 years minimum)":ANSWER_YES,
+    "How many days is your notice period?":NOTICE_PERIOD_IN_DAYS,
+    "LinkedIn":LINKEDIN_PROFILE_URL,
+    "Do you have exp in C/C++?":ANSWER_YES,
+    "What is your preferred location?":PREFERRED_LOCATION,
+    "How many years of experience do you have in Android?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of experience do you have in Imps?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "Current CTC ?": EXPECTED_CTC_NUMERIC,
     "How many years of work experience do you have with Application Development?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "Expected CTC (in LPA)": EXPECTED_CTC_NUMERIC,
@@ -547,7 +598,7 @@ question_answer_map = {
     "How many years of AI/ML experience do you have?": YEARS_OF_EXPERIENCE_IN_CORE,
     "How much is your current CTC? Mention the figure in lacs.": EXPECTED_CTC_NUMERIC,
     "What is your notice period in number of days?": NOTICE_PERIOD_IN_DAYS,
-    "What is your official Notice Period?": OFFICIAL_NOTICE_PERIOD_IN_DAYS,
+    "What is your official Notice Period?": NOTICE_PERIOD_IN_DAYS,
     "What is your current CTC salary in Lakh Per Annum?": CURRENT_CTC_NUMERIC,
     "What is your Current CTC (Fixed)?": CURRENT_CTC_NUMERIC,
     "What was your CGPA in B.Tech./ BCA/ B.Sc./ MCA/ Bachelors degree?": '8.21',
@@ -622,7 +673,7 @@ question_answer_map = {
     "How many years of work experience do you have with Marketing Qualified Lead (MQL)?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of experience do you have in software implementation?": YEARS_OF_EXPERIENCE_IN_CORE,
     "What about this role makes it a good fit for you?": SKILLS,
-    "What is your Notice period?": NOTICE_PERIOD_IN_DAYS,
+    "What is your Notice period?": NOTICE_PERIOD_RADIO_OPTION,
     "ISTQB Certified?":ANSWER_NO,
     "How many years of work experience do you have with Hibernate?": YEARS_OF_EXPERIENCE_IN_CORE,
     "What is your current fixed CTC?": CURRENT_CTC_NUMERIC,
@@ -811,10 +862,24 @@ question_answer_map = {
     "Current CTC": CURRENT_CTC_NUMERIC,
     "How many years of experience do you have in Application Engineering?": YEARS_OF_EXPERIENCE_IN_CORE,
     "Are you open to work on contract?": ANSWER_YES,
+    "How many years of work experience do you have in manual testing?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "What is your exp in Automation testing ?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in programming with Java, JavaScript, or Python for building and maintaining automated test frameworks?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of work experience do you have with Azure DevOps Server?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many days of notice period do you have ?":NOTICE_PERIOD_IN_DAYS,
+    "How many years of overall IT experience do you have?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of work experience do you have with Automation?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in Finance Domain?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of hands-on experience do you have in backend API automation using tools like Rest Assured, Karate, or similar frameworks?":YEARS_OF_EXPERIENCE_IN_CORE,
     "Are you currently residing in Hyderabad, Telangana or willing to relocate to Hyderabad, Telangana?": ANSWER_YES,
     "Are you currently residing in Ahmedabad or willing to relocate to Ahmedabad?": ANSWER_YES,
     "do you have good experience in python?": ANSWER_YES,
     "Are you open to work in 10:00 AM To 07:00 PM for this job?": ANSWER_YES,
+    "How many years of work experience do you have with Java, Selenium, Cucumber, Azure DevOps, and Manual Testing?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in Automation Testing":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many total years of work experience you have?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "WHAT IS YOUR TOTAL YEARS OF EXPERIENCE?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "Notice period?":NOTICE_PERIOD_RADIO_OPTION,
     "Are you willing to relocate to Pune to work in Hybrid mode on direct payroll with my client ?": ANSWER_YES,
     "Are you currently residing in Bengaluru or willing to relocate to Bengaluru?": ANSWER_YES,
     "This is a work from office opportunity. Are you willing to work full-time out of our office in Hebbal, Bangalore?": ANSWER_YES,

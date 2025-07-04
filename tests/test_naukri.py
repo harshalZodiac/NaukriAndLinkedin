@@ -6,9 +6,9 @@ import settings
 import time
 import math
 
-class TestNaukriLogin:
+class TestNaukriJobApply:
 
-    def test_profile_percentage_value(self, browser_page):
+    def test_update_profile_general_section(self, browser_page):
         login_page = NaukriLoginPage(browser_page)
         profile_page = NaukriProfilePage(browser_page)
 
@@ -19,15 +19,8 @@ class TestNaukriLogin:
         percentage_value = profile_page.get_profile_percentage_value()
         assert int(percentage_value) >= 90, f"Profile completion is only {percentage_value}%. Please update!"
 
-    def test_update_profile_general_section(self, browser_page):
-        login_page = NaukriLoginPage(browser_page)
-        profile_page = NaukriProfilePage(browser_page)
-
-        login_page.login()
-        profile_page.view_profile()
         profile_page.edit_general_profile_section()
 
-class TestNaukriJobApply:
 
     def test_naukri_apply(self, browser_page):
         login_page = NaukriLoginPage(browser_page)

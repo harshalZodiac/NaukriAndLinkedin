@@ -104,11 +104,11 @@ class LinkedinJobApplyPage:
                         if answer:
                             input_field.fill(answer)
 
-                        if "location" in question.lower():
-                            dropdown_option = self.page.locator("text=" + answer).first
-                            if dropdown_option.is_visible():
-                                dropdown_option.click()
-                                time.sleep(1)
+                        # if "location" in question.lower():
+                        #     dropdown_option = self.page.locator("text=" + answer).first
+                        #     if dropdown_option.is_visible():
+                        #         dropdown_option.click()
+                        #         time.sleep(1)
 
                         else:
                             print(f"[Unmapped Question]: {question}")

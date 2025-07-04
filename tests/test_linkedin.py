@@ -4,7 +4,7 @@ from page_objects.linkedin.login_page import LinkedinLoginPage
 import time
 
 
-class TestLinkedinProfile:
+class TestLinkedinApply:
 
     def test_linkedin_profile_random_edit(self, browser_page):
         linkedin_login_page = LinkedinLoginPage(browser_page)
@@ -14,8 +14,6 @@ class TestLinkedinProfile:
         linkedin_profile_page.view_linkedin_profile()
         linkedin_profile_page.edit_linkedin_profile()
         time.sleep(5)
-
-class TestLinkedinApply:
 
     def test_linkedin_job_apply(self, browser_page):
         linkedin_login_page = LinkedinLoginPage(browser_page)
@@ -33,4 +31,3 @@ class TestLinkedinApply:
             for job in range(25):
                 linkedin_apply_page.apply_linkedin_jobs(job)
             time.sleep(5)
-
