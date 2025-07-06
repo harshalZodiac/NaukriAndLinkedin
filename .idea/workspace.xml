@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="849a781d-8612-4635-8aec-9afb027c974e" name="Changes" comment="additional questions 1">
+    <list default="true" id="849a781d-8612-4635-8aec-9afb027c974e" name="Changes" comment="Keeping only needed code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_objects/linkedin/job_apply_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/linkedin/job_apply_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_objects/naukri/job_apply_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/naukri/job_apply_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_linkedin.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_linkedin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/external_links.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tests/external_links.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_naukri.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_naukri.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +63,7 @@
     &quot;Python tests.Python tests for test_job_search.TestNaukriJobSearch.test_job_search_start.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_linkedin.TestLinkedinApply.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_linkedin.TestLinkedinApply.test_linkedin_job_apply.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_linkedin.TestLinkedinApply.test_linkedin_profile_random_edit.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_linkedin.TestLinkedinProfile.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_linkedin.TestLinkedinProfile.test_linkedin_profile_random_edit.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_linkedin_login.TestLinkedinLogin.executor&quot;: &quot;Run&quot;,
@@ -101,7 +102,7 @@
       <recent name="D:\PythonProject\Naukri" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_linkedin.TestLinkedinApply.test_linkedin_profile_random_edit">
+  <component name="RunManager" selected="Python tests.Python tests for test_naukri.TestNaukriJobApply.test_naukri_apply">
     <configuration name="Python tests for test_linkedin.TestLinkedinApply" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Naukri" />
       <option name="ENV_FILES" value="" />
@@ -179,18 +180,18 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_linkedin.TestLinkedinApply.test_linkedin_profile_random_edit" />
-        <item itemvalue="Python tests.Python tests for test_linkedin.TestLinkedinApply.test_linkedin_job_apply" />
-        <item itemvalue="Python tests.Python tests for test_linkedin.TestLinkedinApply" />
         <item itemvalue="Python tests.Python tests for test_naukri.TestNaukriJobApply.test_naukri_apply" />
         <item itemvalue="Python tests.Python tests for test_naukri.TestNaukriJobApply" />
+        <item itemvalue="Python tests.Python tests for test_linkedin.TestLinkedinApply.test_linkedin_job_apply" />
+        <item itemvalue="Python tests.Python tests for test_linkedin.TestLinkedinApply" />
+        <item itemvalue="Python tests.Python tests for test_linkedin.TestLinkedinApply.test_linkedin_profile_random_edit" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-53e2683a6804-9cdd278e9d02-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.26094.141" />
+        <option value="bundled-python-sdk-598b0484d0b5-e2d783800521-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.26927.74" />
       </set>
     </attachedChunks>
   </component>
@@ -201,14 +202,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1745641894439</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Adding question 3">
-      <option name="closed" value="true" />
-      <created>1747378887117</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1747378887117</updated>
     </task>
     <task id="LOCAL-00029" summary="Updating Linkedin apply">
       <option name="closed" value="true" />
@@ -594,7 +587,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751380747523</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="Keeping only needed code">
+      <option name="closed" value="true" />
+      <created>1751593765001</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1751593765001</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -609,7 +610,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding few more questions 17" />
     <MESSAGE value="Adding few more questions 18" />
     <MESSAGE value="Adding few more questions 19" />
     <MESSAGE value="Adding few more questions 20" />
@@ -634,6 +634,7 @@
     <MESSAGE value="Removing commented code" />
     <MESSAGE value="additional questions" />
     <MESSAGE value="additional questions 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="additional questions 1" />
+    <MESSAGE value="Keeping only needed code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Keeping only needed code" />
   </component>
 </project>
