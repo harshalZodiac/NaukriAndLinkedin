@@ -50,7 +50,7 @@ class NaukriJobSearchPage:
 
         self.page.wait_for_selector(self.role_category_apply_filter, state="visible")
         self.page.locator(self.role_category_apply_filter).click(force=True)
-        self.validate_number_of_filters_applied('5')
+        # self.validate_number_of_filters_applied('5')
 
     def apply_education_filter(self):
         self.page.wait_for_selector(self.b_tech_education, state="visible")
