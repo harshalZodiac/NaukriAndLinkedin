@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="849a781d-8612-4635-8aec-9afb027c974e" name="Changes" comment="Question addition 4">
+    <list default="true" id="849a781d-8612-4635-8aec-9afb027c974e" name="Changes" comment="Question addition 5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/external_links.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tests/external_links.txt" afterDir="false" />
@@ -101,7 +101,7 @@
       <recent name="D:\PythonProject\Naukri" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_naukri.TestNaukriJobApply">
+  <component name="RunManager" selected="Python tests.Python tests for test_linkedin.TestLinkedinApply.test_linkedin_job_apply">
     <configuration name="Python tests for test_linkedin.TestLinkedinApply" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Naukri" />
       <option name="ENV_FILES" value="" />
@@ -179,10 +179,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_naukri.TestNaukriJobApply" />
         <item itemvalue="Python tests.Python tests for test_linkedin.TestLinkedinApply.test_linkedin_job_apply" />
-        <item itemvalue="Python tests.Python tests for test_linkedin.TestLinkedinApply" />
         <item itemvalue="Python tests.Python tests for test_naukri.TestNaukriJobApply.test_naukri_apply" />
+        <item itemvalue="Python tests.Python tests for test_naukri.TestNaukriJobApply" />
+        <item itemvalue="Python tests.Python tests for test_linkedin.TestLinkedinApply" />
         <item itemvalue="Python tests.Python tests for test_naukri.TestNaukriJobApply.test_update_profile_general_section" />
       </list>
     </recent_temporary>
@@ -201,14 +201,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1745641894439</updated>
-    </task>
-    <task id="LOCAL-00034" summary="Removing unnecessary files and test cases">
-      <option name="closed" value="true" />
-      <created>1747808100114</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1747808100114</updated>
     </task>
     <task id="LOCAL-00035" summary="Adding few more questions">
       <option name="closed" value="true" />
@@ -594,7 +586,15 @@
       <option name="project" value="LOCAL" />
       <updated>1752513247866</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="Question addition 5">
+      <option name="closed" value="true" />
+      <created>1752550601108</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1752550601108</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -609,7 +609,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding few more questions 23" />
     <MESSAGE value="Adding few more questions 24" />
     <MESSAGE value="Adding few more questions 25" />
     <MESSAGE value="Adding few more questions 26" />
@@ -634,6 +633,7 @@
     <MESSAGE value="Question addition 2" />
     <MESSAGE value="Question addition 3" />
     <MESSAGE value="Question addition 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Question addition 4" />
+    <MESSAGE value="Question addition 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Question addition 5" />
   </component>
 </project>

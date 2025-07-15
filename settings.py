@@ -13,7 +13,7 @@ USERNAME = "harshal.shinde1075@gmail.com"
 PASSWORD = "Harsh@555"
 
 JOB_SEARCH_TITLES = 'SDET, python test automation, Software testing, Automation testing, software developer engineer in test, python automation test engineer, '
-JOB_SEARCH_LOCATIONS = 'Pune, Bengaluru, Indore, India, Hyderabad, '
+JOB_SEARCH_LOCATIONS =  'Pune' #'Pune, Bengaluru, Indore, India, Hyderabad, '
 
 LINKEDIN_JOB_SEARCH_INPUT = "senior automation test in Pune or remote" #'SDET in india'  ##
 
@@ -90,10 +90,28 @@ question_answer_map = {
     "Years of experience have worked in browser automation at some level (testing, scraping, Selenium, etc.).":YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of work experience do you have with manual testing?":YEARS_OF_EXPERIENCE_IN_CORE,
     "How soon will you be able to join us? (in days)":NOTICE_PERIOD_IN_DAYS,
+    "How many years of work experience do you have in database testing":YEARS_OF_EXPERIENCE_IN_CORE,
+    "Your experience as automation tester":YEARS_OF_EXPERIENCE_IN_CORE,
     "Are you serving Notice? If Yes, please share the Last Working Day":NOTICE_PERIOD_IN_DAYS,
     "Notice Period (If SNP, Please mention the date (DD-MM-YY) or remaining days )":NOTICE_PERIOD_IN_DAYS,
     "Salary expectations?":EXPECTED_CTC_NUMERIC,
+    "How many years of work experience do you have with Agile Project Management?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of work experience do you have with Airflow?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of total IT experience?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "Preferred location":PREFERRED_LOCATION,
+    "Years of experience into Jmeter":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "Total Work Experience?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "What is the Notice Period?":NOTICE_PERIOD_IN_DAYS,
+    "How soon you can join us if offered?":NOTICE_PERIOD_IN_DAYS,
+    "How Many Years of experince you haave with Playwright Automation":YEARS_OF_EXPERIENCE_IN_CORE,
+    "Current Employer (Payroll Company)": CURRENT_ORGANIZATION,
+    "How many years of work experience do you have with Mobile Automation?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of work experience do you have with Azure DevOps Services?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of work experience do you have with Calypso?": YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of experience do you have?": YEARS_OF_EXPERIENCE_IN_CORE,
+    "What is your total year of experience?":YEARS_OF_EXPERIENCE_IN_CORE,
     "Are you available for Face to Face discussion on 19-Jul-25?":ANSWER_YES,
+    "How many years of experience do you have in Aiml?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of experience in working in Product Based Organization?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "Do you have Life Science experience?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of experience do you have in React.Js?":YEARS_OF_EXPERIENCE_IN_CORE,
