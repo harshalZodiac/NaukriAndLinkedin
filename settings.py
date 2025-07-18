@@ -13,9 +13,10 @@ USERNAME = "harshal.shinde1075@gmail.com"
 PASSWORD = "Harsh@555"
 
 JOB_SEARCH_TITLES = 'SDET, python test automation, Software testing, Automation testing, software developer engineer in test, python automation test engineer, '
-JOB_SEARCH_LOCATIONS =  'Pune' #'Pune, Bengaluru, Indore, India, Hyderabad, '
+JOB_SEARCH_LOCATIONS =  'Pune, Bengaluru, India'
 
-LINKEDIN_JOB_SEARCH_INPUT = "senior automation test in Pune or remote" #'SDET in india'  ##
+# LINKEDIN_JOB_SEARCH_INPUT = "senior automation test or SDET in Pune, Bengaluru or remote"
+LINKEDIN_JOB_SEARCH_INPUT = "senior automation test or SDET only remote"
 
 SALUTATION = 'Mr.'
 USER_FULL_NAME = "Harshal Suryakant Shinde"
@@ -69,10 +70,21 @@ PERFORMANCE_TOOL = 'Jmeter'
 POST_APPLYING_FOR = 'SDET - QA (Manual & Automation)'
 MOST_RECENT_JOB_TITLE = 'Automation test engineer'
 FROM_WHERE_GOT_TO_KNOW_THIS_JOB = 'LinkedIn'
+B_TECH_PERCENTAGE = '8.21'
 
 question_answer_map = {
+    "How many years of experience in Rest Assured?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "What all the domains you have experience on":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in Post Silicon Validation?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How did you hear about this job?":FROM_WHERE_GOT_TO_KNOW_THIS_JOB,
+    "How many years of experience do you have in Java Coding?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "Are you currently in Delhi/NCR, if no please don't apply as it's WFO role.":ANSWER_YES,
+    "How many years of experience do you have in Database Testing and API Testing?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in Regression Testing?":YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of experience do you have in Salesforce Automation Testing?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "Where is your hometown?":HOMETOWN,
+    "What soon are you available to join(in days)?":NOTICE_PERIOD_IN_DAYS,
+    "Do you have experience writing tests using Cypress? If yes, how many years?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of experience do you have in Bdd Cucumber?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of experience do you have in IOT?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of work experience do you have with UiPath?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
@@ -80,6 +92,10 @@ question_answer_map = {
     "How many years of work experience do you have with Local Interconnect Network (LIN)?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of experience do you have in building and designing an automation framework using Playwright with JavaScript?":YEARS_OF_EXPERIENCE_IN_CORE,
     "Current Salary":CURRENT_CTC_NUMERIC,
+    "What is your notice period? (Days)":NOTICE_PERIOD_IN_DAYS,
+    "Current Role of the Candidate":MOST_RECENT_JOB_TITLE,
+    "How many years of work experience do you have with ASP.NET Web API?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "We are looking to close this position urgently. Given an offer - how soon can you join? [Answer in number of weeks]":NOTICE_PERIOD_IN_DAYS,
     "How many years of experience do you have with JMeter?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "Expected Compensation":EXPECTED_CTC_NUMERIC,
     "How many years of work experience do you have with Automation experience":YEARS_OF_EXPERIENCE_IN_CORE,
@@ -92,6 +108,13 @@ question_answer_map = {
     "How soon will you be able to join us? (in days)":NOTICE_PERIOD_IN_DAYS,
     "How many years of work experience do you have in database testing":YEARS_OF_EXPERIENCE_IN_CORE,
     "Your experience as automation tester":YEARS_OF_EXPERIENCE_IN_CORE,
+    "Are you fine to work at Hyderabad ?":ANSWER_YES,
+    "How many years of experience do you have in Java with Selinium?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in Cypress Automation?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "Kindly share your UG Percentage": B_TECH_PERCENTAGE,
+    "What is your expected ECTC in Lacs per annum?":EXPECTED_CTC_NUMERIC,
+    "Do you have PF account with all the companies?":ANSWER_YES,
+    "How many years in Manual Testing":YEARS_OF_EXPERIENCE_IN_CORE,
     "Are you serving Notice? If Yes, please share the Last Working Day":NOTICE_PERIOD_IN_DAYS,
     "Notice Period (If SNP, Please mention the date (DD-MM-YY) or remaining days )":NOTICE_PERIOD_IN_DAYS,
     "Salary expectations?":EXPECTED_CTC_NUMERIC,
@@ -99,6 +122,7 @@ question_answer_map = {
     "How many years of work experience do you have with Airflow?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of total IT experience?":YEARS_OF_EXPERIENCE_IN_CORE,
     "Preferred location":PREFERRED_LOCATION,
+    "Kindly share your DOB":DATE_OF_BIRTH,
     "Years of experience into Jmeter":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "Total Work Experience?":YEARS_OF_EXPERIENCE_IN_CORE,
     "What is the Notice Period?":NOTICE_PERIOD_IN_DAYS,
@@ -366,9 +390,22 @@ question_answer_map = {
     "How many years experience do you have in machine learning?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "Please specify your level of hands-on experience with Python.Infrastructure":YEARS_OF_EXPERIENCE_IN_CORE,
     "Are you a Previous Employee, Intern, Or Contractor?":ANSWER_NO,
+    "How many years of work experience do you have ?":YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of experience do you have in sql?":YEARS_OF_EXPERIENCE_IN_CORE,
     "What is your notice period and Last Working Day?":NOTICE_PERIOD_IN_DAYS,
     "Are you comfortable for 6-8 Months contractual?":ANSWER_NO,
+    "How many years of work experience do you have with Telecom BSS?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of work experience do you have with Spring Security?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "What are your monthly salary expectations in local currency?":EXPECTED_CTC_NUMERIC,
+    "Can you highlight your past experience and proficiency in JavaScript and CSS?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of hands-on experience do you have in Golang development?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "No Notice Period (able to start new role as soon as possible)":NOTICE_PERIOD_IN_DAYS,
+    "Less than 5 LPA":ANSWER_NO,
+    "Experience in Typescript":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "What is your current salary":CURRENT_CTC_NUMERIC,
+    "How many years of work experience do you have with Oracle Hyperion Testing?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of work experience do you have with Telecommunications?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of work experience do you have with Selenium?":YEARS_OF_EXPERIENCE_IN_CORE,
     "Total Experience :":YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of experience do you have in Microsoft Power Platform?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of experience do you have in Jdbc Database?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
@@ -895,7 +932,7 @@ question_answer_map = {
     "How many years of work experience do you have with Rest Sharp API ?":YEARS_OF_EXPERIENCE_IN_CORE,
     "What will be your notice period in days?":NOTICE_PERIOD_IN_DAYS,
     "Mention any other skill ( If you have any )":NOT_APPLICABLE,
-    "What was your CGPA in B.Tech./ BCA/ B.Sc./ MCA/ Bachelors degree?": '8.21',
+    "What was your CGPA in B.Tech./ BCA/ B.Sc./ MCA/ Bachelors degree?": B_TECH_PERCENTAGE,
     "How many years of work experience do you have with Python?": YEARS_OF_EXPERIENCE_IN_CORE,
     "What is your total year of experience ?": YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of work experience do you have with Representational State Transfer (REST)?": YEARS_OF_EXPERIENCE_IN_CORE,
