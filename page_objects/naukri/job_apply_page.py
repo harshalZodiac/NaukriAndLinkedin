@@ -64,13 +64,6 @@ class NaukriJobApplyPage:
                             text = radio_labels.nth(i).inner_text()
                             print(f"- {text}")
 
-                        # radio_answer_selection = self.radio_answer.format(answer_value=answer)
-                        # new_tab.locator(radio_answer_selection).first.wait_for(state="visible")
-                        # new_tab.locator(radio_answer_selection).click()
-                        # time.sleep(2)
-                        # new_tab.locator(self.save_button).last.wait_for(state="visible")
-                        # new_tab.locator(self.save_button).last.click()
-
                         normalized_answer = answer.lower().rstrip(".")
 
                         radio_labels = new_tab.locator(self.radio_options)
@@ -87,7 +80,6 @@ class NaukriJobApplyPage:
 
                     if not question_locator.is_visible():
                         break
-
 
                     if question_text == "Thank you for your responses.":
                         break

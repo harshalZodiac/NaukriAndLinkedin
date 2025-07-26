@@ -14,3 +14,7 @@ def save_internal_with_question_job_links(url, file_path="internal_with_question
     with open(file_path, "a", encoding="utf-8") as f:
         f.write(url + "\n")
 
+def log_incomplete_application(job_url):
+    with open("incomplete_applications.txt", "a") as file:
+        file.write(f"{job_url}\n")
+
