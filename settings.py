@@ -13,10 +13,11 @@ USERNAME = "harshal.shinde1075@gmail.com"
 PASSWORD = "Harsh@555"
 
 JOB_SEARCH_TITLES = 'SDET, python test automation, Software testing, Automation testing, software developer engineer in test, python automation test engineer, '
-JOB_SEARCH_LOCATIONS =  'Pune, Bengaluru, India'
+# JOB_SEARCH_LOCATIONS =  'Pune, Bengaluru, India'
+JOB_SEARCH_LOCATIONS =  'Bengaluru'
 
 # LINKEDIN_JOB_SEARCH_INPUT = "senior automation test or SDET in Pune, Bengaluru or remote"
-LINKEDIN_JOB_SEARCH_INPUT = "senior automation test or SDET in pune"
+LINKEDIN_JOB_SEARCH_INPUT = "senior automation test or SDET in Bengaluru"
 
 SALUTATION = 'Mr.'
 USER_FULL_NAME = "Harshal Suryakant Shinde"
@@ -24,10 +25,10 @@ USER_FULL_NAME = "Harshal Suryakant Shinde"
 YEARS_OF_EXPERIENCE_IN_CORE = '5'
 YEARS_OF_EXPERIENCE_IN_NON_CORE = '3'
 
-EXPECTED_CTC_FULL_NUMERIC = '1600000'
+EXPECTED_CTC_FULL_NUMERIC = '1700000'
 CURRENT_CTC_FULL_NUMERIC = '700000'
 
-EXPECTED_CTC_NUMERIC = '16'
+EXPECTED_CTC_NUMERIC = '17'
 CURRENT_CTC_NUMERIC = '7'
 
 ANSWER_YES = 'Yes'
@@ -49,7 +50,7 @@ CURRENT_LOCATION = 'Bengaluru, Karnataka, India'
 PREFERRED_LOCATION = 'Pune, Bengaluru, Remote, Any city in india'
 CURRENT_LOCATION_IS_BANGALORE = 'Currently staying in bengaluru'
 NOTICE_PERIOD_IN_DAYS = f'{str(days_remaining)}'
-NOTICE_PERIOD_RADIO_OPTION = 'Serving notice period'
+NOTICE_PERIOD_RADIO_OPTION = '15 Days or less'
 ALL_SKILLS = "Manual Testing, Automated Testing, API, Playwright, PyTest, Postman, Selenium, Accessibility Testing, CI/CD Pipeline Configuration, Cross-Browser Testing & Responsive Testing"
 ROLE_CATEGORY_SECTION = 'Quality Assurance and Testing'  ## Dev 'Software Development'
 PAN_CARD= 'HOQPS3028F'
@@ -82,12 +83,14 @@ question_answer_map = {
     "How many years of work experience do you have with GraphQL?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of work experience do you have with JavaScript/TypeScript?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "Are you hands on - Java ?":ANSWER_YES,
+    "Notice Period: 15 - 20 days":ANSWER_YES,
     "Automation testing experience":YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of experience do you have ?":YEARS_OF_EXPERIENCE_IN_CORE,
     "EX CTC":EXPECTED_CTC_NUMERIC,
     "How many years of experience you have in QA Automation Engineer ?":YEARS_OF_EXPERIENCE_IN_CORE,
     "Experience in JavaScript":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "years of experience in Rest Assured?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of work experience do you have with Natural Language Processing (NLP)?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "Notice Period (If SNP, Please mention the date (DD-MM-YY) or remaining days":NOTICE_PERIOD_IN_DAYS,
     "How many years of experience do you have in Appium and iOS mobile app automation?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of work experience do you have with Tosca Automation Engineer ?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
@@ -95,14 +98,39 @@ question_answer_map = {
     "Are you comfortable for Face2face interview round on 26th July 25 (Sat)":ANSWER_YES,
     "How many years of experience do you have in Embedded?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "What is your notice period?":NOTICE_PERIOD_RADIO_OPTION,
+    "Are you ready to come for Face to Face discussion on 30th July 2025 at Wipro office,Chennai?":ANSWER_NO,
+    "How many years of experience do you have in API Automation?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience you have in Healthcare domain/DICOM?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of experience do you have in JSON?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "Are you an immediate joiner?":NOTICE_PERIOD_IN_DAYS,
     "How many years of experience do you have in test automation using Selenium WebDriver?":YEARS_OF_EXPERIENCE_IN_CORE,
     "How soon can you Join us (in days)?":NOTICE_PERIOD_IN_DAYS,
+    "How many years of experience do you have in Manual Qa?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in Ignition Scada?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of experience do you have in Bugzilla?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in Accessibility Testing?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in Nunit?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of experience do you have in LLM?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "Do you have experience in automation?":YEARS_OF_EXPERIENCE_IN_CORE,
     "What is your Official Notice Period?":NOTICE_PERIOD_IN_DAYS,
+    "Are you proficient in Linux Environment or Linux commands ?":ANSWER_YES,
+    "Are you comfortable with Bellandur - Bengaluru ?":ANSWER_YES,
+    "How many years of experience do you have in Virtualization?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of experience do you have in Python programming?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in .Net Windows Application?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of experience do you have in RestSharp?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of experience do you have in Telecom Testing?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of work experience do you have with Salesforce Sales Cloud?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of work experience do you have with Retail Marketing?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of experience do you have on HiL testing for infotainment systems?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many total years of experience you have?":YEARS_OF_EXPERIENCE_IN_CORE,
     "Relevant exp in Python Automation":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of work experience do you have with Actuarial Consulting?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "Rate your English communication on a scale of 1 to 5, with 1 being the lowest and 5 being the highest.":'4',
     "How many years of experience do you have as a Servicenow Tester?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of experience in Rest Assured?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have working as SDET?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "What is your total years of experience?*":YEARS_OF_EXPERIENCE_IN_CORE,
     "What all the domains you have experience on":YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of experience do you have in Post Silicon Validation?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How did you hear about this job?":FROM_WHERE_GOT_TO_KNOW_THIS_JOB,
@@ -111,6 +139,16 @@ question_answer_map = {
     "How many years of experience do you have in Javacard?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of experience do you have in python?":YEARS_OF_EXPERIENCE_IN_CORE,
     "Experience in Manual Testing":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "Are you serving notice period?":ANSWER_YES,
+    "What is the Notice Period/ LWD ?":NOTICE_PERIOD_IN_DAYS,
+    "How many years of work experience do you have with KDB?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of work experience do you have with Automation Testing ?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in WellCat, WellPlan, and Compass ?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of work experience do you have with Defect Triage?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of work experience do you have with Agile & Waterfall Methodologies?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of work experience do you have with Kotlin?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of experience do you have in automation":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How much experience you have in worksoft certify?":YEARS_OF_EXPERIENCE_IN_CORE,
     "This is a work from office job. Are you 100% interested?":ANSWER_YES,
     "How many years of work experience do you have with Non-functional Testing?":YEARS_OF_EXPERIENCE_IN_CORE,
     "Hands-on experience in core automation testing in Web/API/Mobile?":YEARS_OF_EXPERIENCE_IN_CORE,
@@ -847,7 +885,6 @@ question_answer_map = {
     "Do you have hands-on experience with the Appium tool?":ANSWER_YES,
     "Post Applying For":POST_APPLYING_FOR,
     "Do you have hands-on experience with the Postman tool":ANSWER_YES,
-    "Are you proficient in Linux Environment or Linux commands ?":ANSWER_YES,
     "Do you have experience in Tpt (3 years minimum)":ANSWER_YES,
     "How many days is your notice period?":NOTICE_PERIOD_IN_DAYS,
     "Are you willing to attend in-person interview?":ANSWER_YES,
