@@ -2,34 +2,33 @@ from datetime import date
 
 today = date.today()
 
-target_date = date(2025, 8, 22)
+target_date = date(2025, 8, 22) #### If serving notice period update date
 
 days_remaining = (target_date - today).days
 
 LINKEDIN_URL = 'https://www.linkedin.com/login'
 NAUKRI_URL = "https://www.naukri.com/"
 
-USERNAME = "harshal.shinde1075@gmail.com"
-PASSWORD = "Harsh@555"
+USERNAME = "@gmail.com"
+PASSWORD = "pass@123"
 
 JOB_SEARCH_TITLES = 'SDET, python test automation, Software testing, Automation testing, software developer engineer in test, python automation test engineer, '
-# JOB_SEARCH_LOCATIONS =  'Pune, Bengaluru, India'
-JOB_SEARCH_LOCATIONS =  'Bengaluru'
+JOB_SEARCH_LOCATIONS =  'Pune, Bengaluru, India'
 
-# LINKEDIN_JOB_SEARCH_INPUT = "senior automation test or SDET in Pune, Bengaluru or remote"
-LINKEDIN_JOB_SEARCH_INPUT = "senior automation test or SDET in Bengaluru"
+LINKEDIN_JOB_SEARCH_INPUT = "senior automation test or SDET in Pune, Bengaluru or remote"
+# LINKEDIN_JOB_SEARCH_INPUT = "senior automation test or SDET only remote"
 
-SALUTATION = 'Mr.'
-USER_FULL_NAME = "Harshal Suryakant Shinde"
+SALUTATION = 'XXX'
+USER_FULL_NAME = "XXX"
 
-YEARS_OF_EXPERIENCE_IN_CORE = '5'
-YEARS_OF_EXPERIENCE_IN_NON_CORE = '3'
+YEARS_OF_EXPERIENCE_IN_CORE = 'x'       ## Only single digit like '5'
+YEARS_OF_EXPERIENCE_IN_NON_CORE = 'x'   ## Only single digit like '3'
 
-EXPECTED_CTC_FULL_NUMERIC = '1700000'
-CURRENT_CTC_FULL_NUMERIC = '700000'
+EXPECTED_CTC_FULL_NUMERIC = 'xxxxxxx'       ## Full number 12 LPA is 1200000
+CURRENT_CTC_FULL_NUMERIC = 'xxxxxxx'        ## Full number 2 LPA is 200000
 
-EXPECTED_CTC_NUMERIC = '17'
-CURRENT_CTC_NUMERIC = '7'
+EXPECTED_CTC_NUMERIC = 'x'                 ### Only single digit like '5'
+CURRENT_CTC_NUMERIC = 'x'                   ### Only single digit like '5'
 
 ANSWER_YES = 'Yes'
 ANSWER_NO = 'No'
@@ -38,13 +37,13 @@ ANSWER_ALL = 'ALL'
 
 PROGRAMMING_LANGUAGE = 'Python'
 CURRENT_ORGANIZATION = 'SASKEN Technology (ABB INDIA)'
-LINKEDIN_PROFILE_URL = "https://www.linkedin.com/in/harshal-shinde-70a0b3290"
-FIRST_NAME = 'Harshal'
-LAST_NAME = 'Shinde'
-DATE_OF_BIRTH = '29/12/1998'
-GENDER = 'Male'
+LINKEDIN_PROFILE_URL = "XXXXXXXXXX"  ## LIKE https://www.linkedin.com/in/user_id
+FIRST_NAME = 'xxxxxxxxx'            ### Name
+LAST_NAME = 'Shinde'                ### last name
+DATE_OF_BIRTH = 'DD/MM/YYYY'
+GENDER = 'xxxxx'
 COUNTRY_CODE = '+91'
-MOBILE_NUMBER = '9168921075'
+MOBILE_NUMBER = 'xxxxxxxxxx'
 
 CURRENT_LOCATION = 'Bengaluru, Karnataka, India'
 PREFERRED_LOCATION = 'Pune, Bengaluru, Remote, Any city in india'
@@ -53,25 +52,25 @@ NOTICE_PERIOD_IN_DAYS = f'{str(days_remaining)}'
 NOTICE_PERIOD_RADIO_OPTION = '15 Days or less'
 ALL_SKILLS = "Manual Testing, Automated Testing, API, Playwright, PyTest, Postman, Selenium, Accessibility Testing, CI/CD Pipeline Configuration, Cross-Browser Testing & Responsive Testing"
 ROLE_CATEGORY_SECTION = 'Quality Assurance and Testing'  ## Dev 'Software Development'
-PAN_CARD= 'HOQPS3028F'
-HOMETOWN = 'Pune'
-CURRENT_SALARY_PER_MONTH = '55000'
-LAST_WORKING_DATE = '22-08-2025'
+PAN_CARD= 'xxxxxxxxxx'
+HOMETOWN = 'xxxxxx'
+CURRENT_SALARY_PER_MONTH = 'xxxxx'
+LAST_WORKING_DATE = 'dd-mm-yyyy'
 SKILL_CATEGORY = 'Python'
 SKILLS= 'TESTING'
 TOOLS_FOR_API_TESTING= 'Postman, requests'
 DEFECT_RATE = 5
 RATING_PER_TEN= 9
-KNOWN_LANGUAGES = 'English, Marathi, Hindi'
-HIGHEST_EDUCATION = 'BTech'
+KNOWN_LANGUAGES = 'English, Hindi'
+HIGHEST_EDUCATION = 'B.E'
 SELENIUM = 'Selenium'
 NOT_APPLICABLE = 'NA'
-ADHAAR_CARD_NUMBER = '281263544960'
+ADHAAR_CARD_NUMBER = 'xxxxxxxxxxxxxxxx'
 PERFORMANCE_TOOL = 'Jmeter'
 POST_APPLYING_FOR = 'SDET - QA (Manual & Automation)'
 MOST_RECENT_JOB_TITLE = 'Automation test engineer'
 FROM_WHERE_GOT_TO_KNOW_THIS_JOB = 'LinkedIn'
-B_TECH_PERCENTAGE = '8.21'
+B_TECH_PERCENTAGE = 'xxx'
 
 question_answer_map = {
     "How many years of experience in QA testing with focus on data validation?": "5 Years",
@@ -87,6 +86,7 @@ question_answer_map = {
     "Automation testing experience":YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of experience do you have ?":YEARS_OF_EXPERIENCE_IN_CORE,
     "EX CTC":EXPECTED_CTC_NUMERIC,
+    "Kindly mention overall IT experience.":YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of experience you have in QA Automation Engineer ?":YEARS_OF_EXPERIENCE_IN_CORE,
     "Experience in JavaScript":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "years of experience in Rest Assured?":YEARS_OF_EXPERIENCE_IN_CORE,
@@ -115,6 +115,15 @@ question_answer_map = {
     "What is your Official Notice Period?":NOTICE_PERIOD_IN_DAYS,
     "Are you proficient in Linux Environment or Linux commands ?":ANSWER_YES,
     "Are you comfortable with Bellandur - Bengaluru ?":ANSWER_YES,
+    "Client wants someone to join within 2-3 weeks. Are you available to join within 3 weeks?":ANSWER_YES,
+    "How many years of work experience do you have in developing test scripts for Databricks, Snowflake, and Airflow-based systems?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of work experience do you have with Agile Testing?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "We are looking for immedaite joiner,are you serving your NP ?What is your LWD?":NOTICE_PERIOD_IN_DAYS,
+    'How many years into "AI" - gpt, llama, gemma?':YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "What is your current Fixed CTC?":CURRENT_CTC_NUMERIC,
+    "30 days or less":ANSWER_YES,
+    "Do you have experience in QE practices and QA to QE transformation":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in Mobile QA Testing?":YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of experience do you have in Virtualization?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of experience do you have in Python programming?":YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of experience do you have in .Net Windows Application?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
@@ -279,7 +288,8 @@ question_answer_map = {
     "Can you describe your experience testing onboarding or customer enrollment systems?":ANSWER_YES,
     "What tools used for API testing?": TOOLS_FOR_API_TESTING,
     "How many years of experience do you have in RTGS?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
-    "What's your notice period?":NOTICE_PERIOD_IN_DAYS,
+    "What's your notice period?":NOTICE_PERIOD_RADIO_OPTION,
+    "How many years of work experience with Java?":"4 years",
     "How many years of work experience do you have with Robot Framework?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of work experience do you have with API Automation?":YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of work experience do you have with Squish?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
@@ -588,10 +598,33 @@ question_answer_map = {
     "How many years of experience do you have in Web Testing?":YEARS_OF_EXPERIENCE_IN_CORE,
     "What is your Notice Period?":NOTICE_PERIOD_RADIO_OPTION,
     "What is your expected CTC in LPA?":EXPECTED_CTC_NUMERIC,
+    "How many years of experience do you have in Selenium & Appium ?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "Date Of Birth":DATE_OF_BIRTH,
+    "How many years of experience do you have in Qa Automation Testing?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "Mention your LWD":LAST_WORKING_DATE,
+    "What is your Currenct CTC?":CURRENT_CTC_NUMERIC,
+    "Experience in Python Robot Framework/Pytest/PYATS/PYUNIT":YEARS_OF_EXPERIENCE_IN_CORE,
+    "Confirmed":ANSWER_YES,
+    'Kindly mention your official notice period in days. If serving, please mention the number of days remaining, and if you are an immediate joiner, please mention "0".':NOTICE_PERIOD_IN_DAYS,
+    "Cloud Experience (AWS/Azure/GCP)":YEARS_OF_EXPERIENCE_IN_CORE,
+    "What is Current Notice Period":NOTICE_PERIOD_IN_DAYS,
+    "How many years of work experience do you have with Pega PRPC?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "Which are the database that you have worked with?":"Oracle",
     "How many years of work experience do you have with Git?":YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of work experience do you have with Coding Practices?":YEARS_OF_EXPERIENCE_IN_CORE,
     "What is your relevant experience?":YEARS_OF_EXPERIENCE_IN_CORE,
     "Full Name":USER_FULL_NAME,
+    "What is your Expected Fixed CTC?":EXPECTED_CTC_NUMERIC,
+    "How many years of experience do you have with testing?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "What is your current CTC (fixed + variable)?":CURRENT_CTC_NUMERIC,
+    "How many years of experience do you have with Mobile automation testing using Appium, Java/Python":YEARS_OF_EXPERIENCE_IN_CORE,
+    "Please mention your Current CTC & Expected CTC.":EXPECTED_CTC_NUMERIC,
+    "How many years of work experience do you have with VMware?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of work experience do you have with Automation testing?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "Notice period in days":NOTICE_PERIOD_IN_DAYS,
+    "How many years of work experience do you have with Microsoft Power BI?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have with Cloud Testing?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of work experience do you have with SQL Server Reporting Services (SSRS)?":YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of experience do you have in Ios Testing?":YEARS_OF_EXPERIENCE_IN_CORE,
     "Are you comfortable working in Bangalore in Hybrid mode?":ANSWER_YES,
     "Are you currently residing in Kochi, Kerala or willing to relocate to Kochi, Kerala?":YEARS_OF_EXPERIENCE_IN_CORE,
@@ -1170,7 +1203,6 @@ question_answer_map = {
     "How many years of experience do you have in Manual testing?":YEARS_OF_EXPERIENCE_IN_CORE,
     "Worked for Infosys earlier": ANSWER_NO,
     "Are you available for Face-to-Face Interview on 26th July, Saturday?":ANSWER_YES,
-    "How many years of work experience with Java?":"3 years",
     "What is your Current CTC (annual) in INR?": CURRENT_CTC_NUMERIC,
     "Do you have an experience in QA Automation Testing?":ANSWER_YES,
     "How many years of experience do you have in QA Testing?": YEARS_OF_EXPERIENCE_IN_CORE,

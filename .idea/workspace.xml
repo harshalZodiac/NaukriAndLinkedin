@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="849a781d-8612-4635-8aec-9afb027c974e" name="Changes" comment="Question addition 8">
+    <list default="true" id="849a781d-8612-4635-8aec-9afb027c974e" name="Changes" comment="Question addition 9">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/external_links.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tests/external_links.txt" afterDir="false" />
@@ -201,14 +201,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1745641894439</updated>
-    </task>
-    <task id="LOCAL-00038" summary="Adding few more questions 3">
-      <option name="closed" value="true" />
-      <created>1748062744369</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1748062744369</updated>
     </task>
     <task id="LOCAL-00039" summary="Adding few more questions 4">
       <option name="closed" value="true" />
@@ -594,7 +586,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753506011888</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="Question addition 9">
+      <option name="closed" value="true" />
+      <created>1753844178669</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1753844178669</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -609,7 +609,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding few more questions 27" />
     <MESSAGE value="Adding few more questions 28" />
     <MESSAGE value="Adding few more questions 29" />
     <MESSAGE value="Adding few more questions 30" />
@@ -634,6 +633,7 @@
     <MESSAGE value="Question addition 6" />
     <MESSAGE value="Question addition 7" />
     <MESSAGE value="Question addition 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Question addition 8" />
+    <MESSAGE value="Question addition 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Question addition 9" />
   </component>
 </project>
