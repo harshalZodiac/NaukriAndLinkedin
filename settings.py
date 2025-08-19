@@ -2,33 +2,34 @@ from datetime import date
 
 today = date.today()
 
-target_date = date(2025, 8, 22) #### If serving notice period update date
+target_date = date(2025, 8, 22)
 
 days_remaining = (target_date - today).days
 
 LINKEDIN_URL = 'https://www.linkedin.com/login'
 NAUKRI_URL = "https://www.naukri.com/"
 
-USERNAME = "@gmail.com"
-PASSWORD = "pass@123"
+USERNAME = "harshal.shinde1075@gmail.com"
+PASSWORD = "Harsh@555"
 
 JOB_SEARCH_TITLES = 'SDET, python test automation, Software testing, Automation testing, software developer engineer in test, python automation test engineer, '
 JOB_SEARCH_LOCATIONS =  'Pune, Bengaluru, India'
+# JOB_SEARCH_LOCATIONS =  'Bengaluru'
 
-LINKEDIN_JOB_SEARCH_INPUT = "senior automation test or SDET in Pune, Bengaluru or remote"
-# LINKEDIN_JOB_SEARCH_INPUT = "senior automation test or SDET only remote"
+# LINKEDIN_JOB_SEARCH_INPUT = "senior automation test or SDET in Pune, Bengaluru or remote"
+LINKEDIN_JOB_SEARCH_INPUT = "senior automation test or SDET only remote"
 
-SALUTATION = 'XXX'
-USER_FULL_NAME = "XXX"
+SALUTATION = 'Mr.'
+USER_FULL_NAME = "Harshal Suryakant Shinde"
 
-YEARS_OF_EXPERIENCE_IN_CORE = 'x'       ## Only single digit like '5'
-YEARS_OF_EXPERIENCE_IN_NON_CORE = 'x'   ## Only single digit like '3'
+YEARS_OF_EXPERIENCE_IN_CORE = '5'
+YEARS_OF_EXPERIENCE_IN_NON_CORE = '3'
 
-EXPECTED_CTC_FULL_NUMERIC = 'xxxxxxx'       ## Full number 12 LPA is 1200000
-CURRENT_CTC_FULL_NUMERIC = 'xxxxxxx'        ## Full number 2 LPA is 200000
+EXPECTED_CTC_FULL_NUMERIC = '1700000'
+CURRENT_CTC_FULL_NUMERIC = '700000'
 
-EXPECTED_CTC_NUMERIC = 'x'                 ### Only single digit like '5'
-CURRENT_CTC_NUMERIC = 'x'                   ### Only single digit like '5'
+EXPECTED_CTC_NUMERIC = '17'
+CURRENT_CTC_NUMERIC = '7'
 
 ANSWER_YES = 'Yes'
 ANSWER_NO = 'No'
@@ -37,13 +38,13 @@ ANSWER_ALL = 'ALL'
 
 PROGRAMMING_LANGUAGE = 'Python'
 CURRENT_ORGANIZATION = 'SASKEN Technology (ABB INDIA)'
-LINKEDIN_PROFILE_URL = "XXXXXXXXXX"  ## LIKE https://www.linkedin.com/in/user_id
-FIRST_NAME = 'xxxxxxxxx'            ### Name
-LAST_NAME = 'Shinde'                ### last name
-DATE_OF_BIRTH = 'DD/MM/YYYY'
-GENDER = 'xxxxx'
+LINKEDIN_PROFILE_URL = "https://www.linkedin.com/in/harshal-shinde-70a0b3290"
+FIRST_NAME = 'Harshal'
+LAST_NAME = 'Shinde'
+DATE_OF_BIRTH = '29/12/1998'
+GENDER = 'Male'
 COUNTRY_CODE = '+91'
-MOBILE_NUMBER = 'xxxxxxxxxx'
+MOBILE_NUMBER = '9168921075'
 
 CURRENT_LOCATION = 'Bengaluru, Karnataka, India'
 PREFERRED_LOCATION = 'Pune, Bengaluru, Remote, Any city in india'
@@ -52,25 +53,25 @@ NOTICE_PERIOD_IN_DAYS = f'{str(days_remaining)}'
 NOTICE_PERIOD_RADIO_OPTION = '15 Days or less'
 ALL_SKILLS = "Manual Testing, Automated Testing, API, Playwright, PyTest, Postman, Selenium, Accessibility Testing, CI/CD Pipeline Configuration, Cross-Browser Testing & Responsive Testing"
 ROLE_CATEGORY_SECTION = 'Quality Assurance and Testing'  ## Dev 'Software Development'
-PAN_CARD= 'xxxxxxxxxx'
-HOMETOWN = 'xxxxxx'
-CURRENT_SALARY_PER_MONTH = 'xxxxx'
-LAST_WORKING_DATE = 'dd-mm-yyyy'
+PAN_CARD= 'HOQPS3028F'
+HOMETOWN = 'Pune'
+CURRENT_SALARY_PER_MONTH = '55000'
+LAST_WORKING_DATE = '22-08-2025'
 SKILL_CATEGORY = 'Python'
 SKILLS= 'TESTING'
 TOOLS_FOR_API_TESTING= 'Postman, requests'
 DEFECT_RATE = 5
 RATING_PER_TEN= 9
-KNOWN_LANGUAGES = 'English, Hindi'
-HIGHEST_EDUCATION = 'B.E'
+KNOWN_LANGUAGES = 'English, Marathi, Hindi'
+HIGHEST_EDUCATION = 'BTech'
 SELENIUM = 'Selenium'
 NOT_APPLICABLE = 'NA'
-ADHAAR_CARD_NUMBER = 'xxxxxxxxxxxxxxxx'
+ADHAAR_CARD_NUMBER = '281263544960'
 PERFORMANCE_TOOL = 'Jmeter'
 POST_APPLYING_FOR = 'SDET - QA (Manual & Automation)'
 MOST_RECENT_JOB_TITLE = 'Automation test engineer'
 FROM_WHERE_GOT_TO_KNOW_THIS_JOB = 'LinkedIn'
-B_TECH_PERCENTAGE = 'xxx'
+B_TECH_PERCENTAGE = '8.21'
 
 question_answer_map = {
     "How many years of experience in QA testing with focus on data validation?": "5 Years",
@@ -877,10 +878,17 @@ question_answer_map = {
     "How many years of experience do you have in Automation test?": YEARS_OF_EXPERIENCE_IN_CORE,
     "Nationality": "Indian",
     "Middle Name": "Suryakant",
+    "How many years of experience do you have in Salesforce Functional Testing?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of experience do you have in Networking protocols (L2/L3) ?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of experience do you have in GenAI Solution Testing?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How much experience do you have in Python?":YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of experience do you have in Data Pipeline?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of experience do you have in Fraud Analytics?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "Skills (Enter Comma Separated Values for e.g., Java,BigData,HTML )":ALL_SKILLS,
+    "How many years of experience do you have in NoSql?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of experience do you have in SCADA?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "Are you able to meet the requirement for this position to be in office a minimum of 2 days per week?":ANSWER_YES,
+    "Do you have 4+ Years of experience in Automation testing ?":ANSWER_YES,
     "Which tool of performance testing have you used...please explain": PERFORMANCE_TOOL,
     "How many years of experience do you have in Power Bi?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of experience do you have in TestNg?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
