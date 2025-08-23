@@ -17,7 +17,7 @@ JOB_SEARCH_LOCATIONS =  'Pune, Bengaluru, India'
 # JOB_SEARCH_LOCATIONS =  'Bengaluru'
 
 # LINKEDIN_JOB_SEARCH_INPUT = "senior automation test or SDET in Pune, Bengaluru or remote"
-LINKEDIN_JOB_SEARCH_INPUT = "senior automation test or SDET only remote"
+LINKEDIN_JOB_SEARCH_INPUT = "senior automation test or SDET in india remote"
 
 SALUTATION = 'Mr.'
 USER_FULL_NAME = "Harshal Suryakant Shinde"
@@ -25,10 +25,10 @@ USER_FULL_NAME = "Harshal Suryakant Shinde"
 YEARS_OF_EXPERIENCE_IN_CORE = '5'
 YEARS_OF_EXPERIENCE_IN_NON_CORE = '3'
 
-EXPECTED_CTC_FULL_NUMERIC = '1700000'
+EXPECTED_CTC_FULL_NUMERIC = '1800000'
 CURRENT_CTC_FULL_NUMERIC = '700000'
 
-EXPECTED_CTC_NUMERIC = '17'
+EXPECTED_CTC_NUMERIC = '18'
 CURRENT_CTC_NUMERIC = '7'
 
 ANSWER_YES = 'Yes'
@@ -566,6 +566,17 @@ question_answer_map = {
     "Do you have hands-on experience with Microsoft Dynamics 365 F&O automation testing?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of experience do you have in IOS?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "Highest Qualification":"Graduation",
+    "How many years of work experience do you have with Oracle Application Server?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of work experience do you have with TestNG?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in test automation and scripting?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of work experience do you have with Kafka OR OpenSearch OR Elasticserach OR noSQL?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of experience do you have with Python-based test automation (PyTest, Robot Framework, Behave, etc.)?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "What is your expected CTC (in LPA)?":EXPECTED_CTC_NUMERIC,
+    "How many years of experience do you have in Elastic Search?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "Expected last working day":LAST_WORKING_DATE,
+    "How many years of experience do you have in HMI?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of experience do you have in Sap Automation Testing?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in Selenium Automation Testing?":YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of experience do you have in UAT?":YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of experience do you have in Powershell?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of experience do you have in Web?":YEARS_OF_EXPERIENCE_IN_CORE,
@@ -1394,6 +1405,13 @@ question_answer_map = {
     "How many total years of work experience you have?":YEARS_OF_EXPERIENCE_IN_CORE,
     "WHAT IS YOUR TOTAL YEARS OF EXPERIENCE?":YEARS_OF_EXPERIENCE_IN_CORE,
     "Notice period?":NOTICE_PERIOD_RADIO_OPTION,
+    "Experience into Azure pipeline":YEARS_OF_EXPERIENCE_IN_CORE,
+    "What is your expected CTC salary in Lakh Per Annum?":EXPECTED_CTC_NUMERIC,
+    "How many years of work experience do you have with Data Validation?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "Expected CTC:-?":EXPECTED_CTC_NUMERIC,
+    "What are your salary expectations?":EXPECTED_CTC_NUMERIC,
+    "How many years of work experience do you have with C#?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of work experience do you have with Test Automation":YEARS_OF_EXPERIENCE_IN_CORE,
     "Are you willing to relocate to Pune to work in Hybrid mode on direct payroll with my client ?": ANSWER_YES,
     "Are you currently residing in Bengaluru or willing to relocate to Bengaluru?": ANSWER_YES,
     "This is a work from office opportunity. Are you willing to work full-time out of our office in Hebbal, Bangalore?": ANSWER_YES,
@@ -1401,6 +1419,7 @@ question_answer_map = {
     "Are you currently residing in Hyderabad or willing to relocate to Hyderabad?": ANSWER_YES,
     "Are you currently residing in Gurugram, Haryana or willing to relocate to Gurugram, Haryana?": ANSWER_YES,
     "Are you willing to work 4 days a week from Office?": ANSWER_YES,
+    "Are you available for Virtual video interview on August 23rd Saturday?":ANSWER_YES,
     "Are you ready to work on C2H Role?": ANSWER_YES,
     "How many years of work experience do you have with API Testing ?":YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of work experience do you have with BACnet?":YEARS_OF_EXPERIENCE_IN_NON_CORE,

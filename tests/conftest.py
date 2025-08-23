@@ -7,6 +7,6 @@ def browser_page():
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=False)
         context = browser.new_context(viewport=None)
-        page = context .new_page()
+        page = context.new_page()
         yield page
         browser.close()
