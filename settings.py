@@ -1,10 +1,7 @@
-from datetime import date
-
-today = date.today()
-
-target_date = date(2025, 8, 22)
-
-days_remaining = (target_date - today).days
+# from datetime import date
+# today = date.today()
+# target_date = date(2025, 8, 22)
+# days_remaining = (target_date - today).days
 
 LINKEDIN_URL = 'https://www.linkedin.com/login'
 NAUKRI_URL = "https://www.naukri.com/"
@@ -17,7 +14,7 @@ JOB_SEARCH_LOCATIONS =  'Pune, Bengaluru, India'
 # JOB_SEARCH_LOCATIONS =  'Bengaluru'
 
 # LINKEDIN_JOB_SEARCH_INPUT = "senior automation test or SDET in Pune, Bengaluru or remote"
-LINKEDIN_JOB_SEARCH_INPUT = "senior automation test or SDET in india remote"
+LINKEDIN_JOB_SEARCH_INPUT = "senior automation test or SDET in Pune"
 
 SALUTATION = 'Mr.'
 USER_FULL_NAME = "Harshal Suryakant Shinde"
@@ -49,7 +46,8 @@ MOBILE_NUMBER = '9168921075'
 CURRENT_LOCATION = 'Bengaluru, Karnataka, India'
 PREFERRED_LOCATION = 'Pune, Bengaluru, Remote, Any city in india'
 CURRENT_LOCATION_IS_BANGALORE = 'Currently staying in bengaluru'
-NOTICE_PERIOD_IN_DAYS = f'{str(days_remaining)}'
+# NOTICE_PERIOD_IN_DAYS = f'{str(days_remaining)}'
+NOTICE_PERIOD_IN_DAYS = '0'
 NOTICE_PERIOD_RADIO_OPTION = '15 Days or less'
 ALL_SKILLS = "Manual Testing, Automated Testing, API, Playwright, PyTest, Postman, Selenium, Accessibility Testing, CI/CD Pipeline Configuration, Cross-Browser Testing & Responsive Testing"
 ROLE_CATEGORY_SECTION = 'Quality Assurance and Testing'  ## Dev 'Software Development'
@@ -76,6 +74,12 @@ B_TECH_PERCENTAGE = '8.21'
 question_answer_map = {
     "How many years of experience in QA testing with focus on data validation?": "5 Years",
     "Are you currenlty in Bangalore":ANSWER_YES,
+    "How many years of work experience do you have with Data Structures?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of work experience do you have with Distributed Applications?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "IT Experience":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of work experience do you have with Multithreading?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "cl integration":YEARS_OF_EXPERIENCE_IN_CORE,
+    "validation engineer":YEARS_OF_EXPERIENCE_IN_CORE,
     "Are you willing to work in Manual Testing only (This is purely a Manual role)":ANSWER_YES,
     "What is your total work exprience?":YEARS_OF_EXPERIENCE_IN_CORE,
     "Experience in automation testing ?":YEARS_OF_EXPERIENCE_IN_CORE,
@@ -85,6 +89,7 @@ question_answer_map = {
     "Are you hands on - Java ?":ANSWER_YES,
     "Notice Period: 15 - 20 days":ANSWER_YES,
     "Automation testing experience":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of work experience do you have with Apache?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of experience do you have ?":YEARS_OF_EXPERIENCE_IN_CORE,
     "EX CTC":EXPECTED_CTC_NUMERIC,
     "Kindly mention overall IT experience.":YEARS_OF_EXPERIENCE_IN_CORE,
@@ -99,6 +104,8 @@ question_answer_map = {
     "Are you comfortable for Face2face interview round on 26th July 25 (Sat)":ANSWER_YES,
     "How many years of experience do you have in Embedded?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "What is your notice period?":NOTICE_PERIOD_RADIO_OPTION,
+    "How many years of hands-on Appian QA/testing experience do you have (functional, integration, regression, UAT)?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of total experience do you hold?":YEARS_OF_EXPERIENCE_IN_CORE,
     "Are you ready to come for Face to Face discussion on 30th July 2025 at Wipro office,Chennai?":ANSWER_NO,
     "How many years of experience do you have in API Automation?":YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of experience you have in Healthcare domain/DICOM?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
