@@ -1,3 +1,4 @@
+from playwright.sync_api import TimeoutError as PlaywrightTimeoutError, Error as PlaywrightError
 from playwright.sync_api import Page
 from config.locators_naukri import *
 import settings
@@ -23,6 +24,8 @@ class NaukriJobSearchPage:
         self.freshness_filter_last_three_days = NaukriJobSearchLocators.FILTER_FRESHNESS_LAST_3_DAYS
         self.filters_applied = NaukriJobSearchLocators.APPLIED_FILTERS
         self.total_number_of_jobs_title = NaukriJobSearchLocators.NO_OF_JOBS
+        self.remote_work_mode = NaukriJobSearchLocators.REMOTE_WORK_MODE
+        self.hybrid_work_mode = NaukriJobSearchLocators.HYBRID_WORK_MODE
 
     def start_job_search(self):
         self.page.locator(self.job_search_start).click()
@@ -72,3 +75,13 @@ class NaukriJobSearchPage:
         total_jobs = int(match.group(1))
 
         return total_jobs
+
+    def apply_remote_work_mode_filter(self):
+        remote_work = self.page.locator(self.remote_work_mode)
+        remote_work.wait_for(state="visible")
+        remote_work.click(force=True)
+
+    def apply_hybrid_work_mode_filter(self):
+        hybrid_work = self.page.locator(self.hybrid_work_mode)
+        hybrid_work.wait_for(state="visible")
+        hybrid_work.click(force=True)

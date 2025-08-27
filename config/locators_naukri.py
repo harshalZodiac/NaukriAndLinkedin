@@ -31,6 +31,8 @@ class NaukriJobSearchLocators:
     FILTER_FRESHNESS_LAST_3_DAYS = '//span[text()="Last 3 days"]'
     NO_OF_JOBS = '#jobs-list-header .styles_count-string__DlPaZ'
     APPLIED_FILTERS = '//a[contains(@class, "styles_appliedTxt__UmIjs") and normalize-space(.)="Applied ({number_of_filters_applied})"]'
+    REMOTE_WORK_MODE = '//span[@title="Remote"]/ancestor::label//i[@class="ni-icon-unchecked"]'
+    HYBRID_WORK_MODE = '//span[@title="Hybrid"]/ancestor::label//i[@class="ni-icon-unchecked"]'
 
 
 class NaukriJobApplicationLocators:
@@ -39,7 +41,8 @@ class NaukriJobApplicationLocators:
     NAUKRI_INTERNAL_APPLY_BUTTON = '//button[@id="apply-button"]'
     JOB_ALREADY_APPLIED = '[id="already-applied"]'
     JOB_APPLY_PAGINATION = 'div.styles_pages__v1rAK a'
-    JOB_APPLY_SUCCESS = '[class="apply-message"]'
+    # JOB_APPLY_SUCCESS = '[class="apply-message"]'
+    JOB_APPLY_SUCCESS = '//div[text()="Applied to "]'
     I_AM_INTERESTED = '[id="walkin-button"]'
     ANSWER_PLACEHOLDER = 'div.textArea[contenteditable="true"]'
     QUESTION_PLACEHOLDER = 'li.botItem .botMsg.msg span'
