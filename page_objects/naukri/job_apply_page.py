@@ -32,7 +32,7 @@ class NaukriJobApplyPage:
         time.sleep(2)
         if new_tab.locator(self.apply_on_company_site_button).first.is_visible():
             external_url = new_tab.url
-            save_external_link(external_url)
+            save_external_link(external_url, "naukri_external_links.txt")
             new_tab.close()
             return
         if new_tab.locator(self.i_am_interested).first.is_visible():

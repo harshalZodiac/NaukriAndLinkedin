@@ -21,6 +21,8 @@ class LinkedInJobSearchLocators:
 class LinkedInApplicationLocators:
     JOB_POST = '[data-view-name="job-card"]'
     APPLY_BUTTON = '[id="jobs-apply-button-id"]'
+    EXTERNAL_APPLY_BUTTON = '//button[@id="jobs-apply-button-id" and @role="link"][1]'
+    LIMIT_EXCEEDED = '[class="artdeco-inline-feedback__message"]'
     NEXT_BUTTON = '//span[@class="artdeco-button__text" and text()="Next"]'
     MANDATORY_NOT_FILLED_ERROR = 'li-icon[type="error-pebble-icon"]'
     REVIEW_BUTTON = '//span[@class="artdeco-button__text" and text()="Review"]'

@@ -3,6 +3,8 @@ from config.locators_linkedin import *
 import settings
 import time
 
+from utils.helpers import save_external_link
+
 
 class LinkedinJobApplyPage:
     def __init__(self, page:Page):
@@ -16,6 +18,8 @@ class LinkedinJobApplyPage:
         self.apply_date_filter = LinkedInJobSearchLocators.APPLY_DATE_POSTED_FILTER
         self.linkedin_job_post = LinkedInApplicationLocators.JOB_POST
         self.linkedin_job_apply = LinkedInApplicationLocators.APPLY_BUTTON
+        self.linkedin_external_job_apply = LinkedInApplicationLocators.EXTERNAL_APPLY_BUTTON
+        self.limit_exceeded = LinkedInApplicationLocators.LIMIT_EXCEEDED
         self.next_button = LinkedInApplicationLocators.NEXT_BUTTON
         self.review_button = LinkedInApplicationLocators.REVIEW_BUTTON
         self.mandatory_not_filled_error = LinkedInApplicationLocators.MANDATORY_NOT_FILLED_ERROR
@@ -144,12 +148,28 @@ class LinkedinJobApplyPage:
         self.page.locator(self.linkedin_job_post).nth(job_post).click()
         time.sleep(2)
 
+        if self.page.locator(self.linkedin_external_job_apply).first.is_visible():
+            with self.page.context.expect_page() as new_page_info:
+                self.page.locator(self.linkedin_external_job_apply).first.click()
+
+            new_tab = new_page_info.value
+            external_url = new_tab.url
+
+            if external_url:
+                save_external_link(external_url, "linkedin_external_links.txt")
+            new_tab.close()
+            return
+
+        if self.page.locator(self.limit_exceeded).first.is_visible():
+            return
+
         if self.page.locator(self.linkedin_job_apply).first.is_visible():
             self.page.locator(self.linkedin_job_apply).first.click()
 
         if self.page.locator(self.already_applied).first.is_visible():
             self.page.locator(self.already_applied).first.click()
             return
+
 
         time.sleep(1.5)
         while True:
