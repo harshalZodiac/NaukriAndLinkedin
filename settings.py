@@ -14,8 +14,8 @@ JOB_SEARCH_LOCATIONS =  'Pune, Bengaluru, India'
 # JOB_SEARCH_LOCATIONS =  'Bengaluru'
 
 # LINKEDIN_JOB_SEARCH_INPUT = "senior automation test or SDET remote"
-LINKEDIN_JOB_SEARCH_INPUT = "senior automation test or SDET in India Remote"
-# LINKEDIN_JOB_SEARCH_INPUT = "Automation Test Engineer job in product based organization in india Remote"
+# LINKEDIN_JOB_SEARCH_INPUT = "senior automation test or SDET in India Remote"
+LINKEDIN_JOB_SEARCH_INPUT = "Automation Test Engineer job in product based organization in india Remote"
 
 SALUTATION = 'Mr.'
 USER_FULL_NAME = "Harshal Suryakant Shinde"
@@ -23,7 +23,7 @@ USER_FULL_NAME = "Harshal Suryakant Shinde"
 YEARS_OF_EXPERIENCE_IN_CORE = '5'
 YEARS_OF_EXPERIENCE_IN_NON_CORE = '3'
 
-EXPECTED_CTC_FULL_NUMERIC = '1700000'
+EXPECTED_CTC_FULL_NUMERIC = '1800000'
 CURRENT_CTC_FULL_NUMERIC = '700000'
 
 EXPECTED_CTC_NUMERIC = '18'
@@ -741,7 +741,6 @@ question_answer_map = {
     "Are you Interested in working from 2PM to11PM shift":ANSWER_YES,
     "What is your Expected Salary ?":EXPECTED_CTC_NUMERIC,
     "C# experience ?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
-    "Can you able to join immediately?":ANSWER_YES,
     "Are you in Bengaluru?":ANSWER_YES,
     "How many years of experience do you have in Python Development?":"1-3 years",
     "When is your last working day ?":LAST_WORKING_DATE,
@@ -775,6 +774,37 @@ question_answer_map = {
     "Please share how many years of experience you have in testing?":YEARS_OF_EXPERIENCE_IN_CORE,
     "What is your expected CTC in Lakhs (INR) ?":EXPECTED_CTC_NUMERIC,
     "PAN Card Number":PAN_CARD,
+    "How many years of experience do you have with Jenkins and other CI/CD tools?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of work experience do you have with Selenium/Playwright?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of work experience do you have in API Automation?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of work experience do you have in Automation using Python/Java?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many test cases have you automated so far?":"2000",
+    "Hands-on experience with Automation, CI/CD practices & Scripting skills?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in Web and Mobile Automation testing?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of hands-on experience do you have working with Appium for mobile test automation?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of experience do you have using WebDriverIO with TypeScript for automation?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of experience do you have programming in Java and TypeScript for test automation?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have working in a React Native development stack environment?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of experience do you have testing Hybrid Mobile Platforms such as Cordova or Ionic?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of experience do you have with REST API testing and backend validation?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have integrating and optimizing automated tests within CI/CD pipelines?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have working in Agile/Scrum environments, driving QA strategies within iterative development cycles?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "What is your in hand salary per month in inr (for example if your salary is 70k/month after deductions then type in 70000) ?":'50000',
+    "How many years of work experience do you have with QA Engineer?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of work experience do you have with Java/C++/C#?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "What is your current annual salary? (Mention figure in numbers only)":CURRENT_CTC_NUMERIC,
+    "What are your annual salary expectations? (Mention figure in numbers only)":EXPECTED_CTC_NUMERIC,
+    "How many years of work experience do you have with Automation Testing":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience you have in crypto/Web3 products such as wallets, exchanges, DeFi, or NFT platforms?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "In how many days can you join us, if get selected?":NOTICE_PERIOD_IN_DAYS,
+    "How many years of work experience do you have with Automation QA?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of work experience do you have with Java programming?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of work experience do you have with API-Automation?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "what is the experience in Selenium WebDriver?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "what is the experience Page Factory, TestNG?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "Experience in Backend Automation using Rest Assured, Junit, Mockito, Spring Boot, Cucumber?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of experience in Gherkin Syntax ?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "What is your current salary?":CURRENT_CTC_NUMERIC,
     "How many years of experience do you have in Java script?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of experience do you have in robot framework?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of experience do you have in Api Test Automation?":YEARS_OF_EXPERIENCE_IN_CORE,
@@ -842,6 +872,26 @@ question_answer_map = {
     "Total Years of experience working with Cypress?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of work experience do you have with Payment Gateways?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "What is your Total Years of experience?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "Yrs. of exp. in Appium, Perfecto, Ready API":YEARS_OF_EXPERIENCE_IN_CORE,
+    "what is ECTC?":EXPECTED_CTC_NUMERIC,
+    "How soon you join?":NOTICE_PERIOD_IN_DAYS,
+    "How many years of experience do you have in Deep Learning?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "Please apply if Available for F2F/Virtual Interview on 6th Sep 2025.":ANSWER_YES,
+    "How many years of experience do you have in SSIS?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "Are you ready to come for Face to Face discussion on 3rd Sept 2025 at Wipro office,Chennai?":ANSWER_NO,
+    "How many years of experience do you have in Node.Js?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "Years of working Experience with Test Automation, setting up Test automation frameworks, writing test automation scripts that can be integrated and executed in a CICD pipeline.":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of work experience do you have with Telecom Infrastructure?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of work experience do you have with AppDynamics?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How Many Years Of Experience In C# ?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How Many Years Of Experience In C# With Selenium ?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How Many Years Of Experience In Jira?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of work experience do you have with Teleco?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of Experience do you have with Automation Engineer?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of Experience do you have with C#&Selenium?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of work experience do you have with DS and Algorithms":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many years of work experience do you have with YAML?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have with Algorithms and Data structures?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of work experience do you have with Digital Integration?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "What's your official notice period?":NOTICE_PERIOD_IN_DAYS,
     "What's your expected CTC based on your experience?":EXPECTED_CTC_NUMERIC,
@@ -1140,6 +1190,9 @@ question_answer_map = {
     "How many years of experience do you have in Automation test?": YEARS_OF_EXPERIENCE_IN_CORE,
     "Nationality": "Indian",
     "Middle Name": "Suryakant",
+    "Rate the candidate's communication skills on a scale of 5 to 1. 5 being the highest":'4',
+    "How many years of experience do you have in XPath?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "Can you able to join immediately?":ANSWER_YES,
     "How many years of experience do you have in Salesforce Functional Testing?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of experience do you have in Networking protocols (L2/L3) ?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of experience do you have in GenAI Solution Testing?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
