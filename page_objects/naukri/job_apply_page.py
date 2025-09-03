@@ -1,5 +1,6 @@
 from playwright.sync_api import Page
 from config.locators_naukri import *
+from tests.to_skip_job_titles import naukri_skip_titles
 from utils.helpers import *
 import settings
 import time
@@ -21,6 +22,7 @@ class NaukriJobApplyPage:
         self.radio_answer = NaukriJobApplicationLocators.RADIO_OPTION_SELECTION
         self.save_button = NaukriJobApplicationLocators.SAVE_BUTTON
         self.radio_options = NaukriJobApplicationLocators.RADIO_OPTIONS
+        self.job_title = NaukriJobApplicationLocators.JOB_TITLE
 
     def apply_for_job(self, job_index):
         with self.page.context.expect_page() as new_tab_info:
@@ -30,6 +32,14 @@ class NaukriJobApplyPage:
         new_tab.wait_for_load_state("load")
 
         time.sleep(2)
+        if new_tab.locator(self.job_title).first.is_visible():
+            this_job = new_tab.locator(self.job_title).first.inner_text()
+            print(f"[Info] Job Title: {this_job}")
+            if this_job in naukri_skip_titles:
+                print(f"[Info] Skipped job with title '{this_job}'")
+                new_tab.close()
+                return
+
         if new_tab.locator(self.apply_on_company_site_button).first.is_visible():
             external_url = new_tab.url
             save_external_link(external_url, "naukri_external_links.txt")

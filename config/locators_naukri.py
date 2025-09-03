@@ -44,6 +44,7 @@ class NaukriJobApplicationLocators:
     # JOB_APPLY_SUCCESS = '[class="apply-message"]'
     JOB_APPLY_SUCCESS = '//div[text()="Applied to "]'
     I_AM_INTERESTED = '[id="walkin-button"]'
+    JOB_TITLE = '[class="styles_jd-header-title__rZwM1"]'
     ANSWER_PLACEHOLDER = 'div.textArea[contenteditable="true"]'
     QUESTION_PLACEHOLDER = 'li.botItem .botMsg.msg span'
     RADIO_BUTTON_ANSWER = '[name="radio-button"]'

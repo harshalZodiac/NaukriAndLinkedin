@@ -33,3 +33,4 @@ class LinkedInApplicationLocators:
     ALREADY_APPLIED = '[class="artdeco-inline-feedback__message"]'
     TERMS_AND_CONDITIONS = '[data-test-text-selectable-option__label="I Agree Terms & Conditions"]'
     PAGINATION = '[aria-label="Page {page_number}"]'
+    JOB_TITLE = '[id="ember2333"]'
