@@ -1,6 +1,6 @@
 from playwright.sync_api import Page
 from config.locators_naukri import *
-from tests.to_skip_job_titles import naukri_skip_titles
+from tests.to_skip_job_titles import skip_titles
 from utils.helpers import *
 import settings
 import time
@@ -35,7 +35,7 @@ class NaukriJobApplyPage:
         if new_tab.locator(self.job_title).first.is_visible():
             this_job = new_tab.locator(self.job_title).first.inner_text()
             print(f"[Info] Job Title: {this_job}")
-            if this_job in naukri_skip_titles:
+            if this_job in skip_titles:
                 print(f"[Info] Skipped job with title '{this_job}'")
                 new_tab.close()
                 return

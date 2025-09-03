@@ -1,11 +1,27 @@
-linkedin_skip_titles = ["AppScan Product _Lead Performance Engineer _Remote Location",
+skip_titles = ["AppScan Product _Lead Performance Engineer _Remote Location",
                         "Remote Senior Software Engineer - 34123",
                         "#Jmeter #PerformanceTesting #BMCHelix #Product-Developer-III #5-6yrs",
                         "Technical Evaluator (Remote, Full-Time)",
                         "Senior Performance Engineer",
                         "Senior Site Reliability Engineer",
                         "Sr SAP Test Engineer",
-                        "Sr. Performance Tester- Tietoevry Create ( m/f/d)"]
-
-
-naukri_skip_titles = [""]
+                        "Sr. Performance Tester- Tietoevry Create ( m/f/d)",
+                        "Java Test Automation",
+                        "RPA Developer (Automation Anywhere A360)",
+                        "TDM Testing Engineer",
+                        "SalesForce CPQ Automation",
+                        "Senior Mobile testing Engineer (Appium )",
+                        "Senior Software Engineer",
+                      "System Development Engineer, Just Walk Out Tech",
+                      'Senior Software Engineer Dev Perl REQ/0727',
+                      "Senior AI Engineer",
+                      "AI ENGINEERING SPECIALIST - AI ENGINEERING SPECIALIST",
+                      "Optics Design & Test Engineer II",
+                      "Member Of Technical Staff, DFM Firmware Engineer",
+                      "Senior Engineer, ASIC Development Engineering",
+                      "Associate Software Developer - C++ (Embedded)",
+                      "Senior Software Development Engineer III - Distributed Systems",
+                      "Senior Databricks Engineer",
+                      "Senior Security Engineer",
+                      "Databricks Developer - Python / SQL",
+                      "Behavioural Scientist ( Part time)"]

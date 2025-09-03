@@ -25,7 +25,7 @@ class TestLinkedinApply:
         linkedin_apply_page.navigate_to_job_section()
         linkedin_apply_page.provide_job_search_input()
         linkedin_apply_page.apply_filter_date_posted()
-        linkedin_apply_page.apply_filter_easy_apply()
+        # linkedin_apply_page.apply_filter_easy_apply()
         for page in range(1, 21):
             linkedin_apply_page.change_page(page)
             for job in range(25):

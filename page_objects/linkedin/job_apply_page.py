@@ -1,4 +1,4 @@
-from tests.to_skip_job_titles import linkedin_skip_titles
+from tests.to_skip_job_titles import skip_titles
 from utils.helpers import save_external_link
 from playwright.sync_api import Page
 from config.locators_linkedin import *
@@ -72,7 +72,7 @@ class LinkedinJobApplyPage:
             job_title = job_title_element.inner_text().strip()
             print(f"[Info] Job Title: {job_title}")
 
-            if job_title in linkedin_skip_titles:
+            if job_title in skip_titles:
                 print(f"[Info] Skipping job: {job_title}")
                 return
 
