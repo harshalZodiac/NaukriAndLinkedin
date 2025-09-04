@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="849a781d-8612-4635-8aec-9afb027c974e" name="Changes" comment="Additional questions -2">
+    <list default="true" id="849a781d-8612-4635-8aec-9afb027c974e" name="Changes" comment="Additional questions -3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/locators_linkedin.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/locators_linkedin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_linkedin.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_linkedin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_naukri.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_naukri.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/to_skip_job_titles.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/to_skip_job_titles.py" afterDir="false" />
     </list>
@@ -104,7 +104,7 @@
       <recent name="D:\PythonProject\Naukri" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_naukri.TestNaukriJobApply.test_naukri_apply">
+  <component name="RunManager" selected="Python tests.Python tests for test_naukri.TestNaukriJobApply">
     <configuration name="Python tests for test_linkedin.TestLinkedinApply" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Naukri" />
       <option name="ENV_FILES" value="" />
@@ -182,10 +182,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_naukri.TestNaukriJobApply.test_naukri_apply" />
-        <item itemvalue="Python tests.Python tests for test_linkedin.TestLinkedinApply.test_linkedin_job_apply" />
         <item itemvalue="Python tests.Python tests for test_naukri.TestNaukriJobApply" />
+        <item itemvalue="Python tests.Python tests for test_linkedin.TestLinkedinApply.test_linkedin_job_apply" />
         <item itemvalue="Python tests.Python tests for test_linkedin.TestLinkedinApply" />
+        <item itemvalue="Python tests.Python tests for test_naukri.TestNaukriJobApply.test_naukri_apply" />
         <item itemvalue="Python tests.Python tests for test_naukri.TestNaukriJobApply.test_update_profile_general_section" />
       </list>
     </recent_temporary>
@@ -204,14 +204,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1745641894439</updated>
-    </task>
-    <task id="LOCAL-00047" summary="Adding few more questions 12">
-      <option name="closed" value="true" />
-      <created>1748616859448</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1748616859448</updated>
     </task>
     <task id="LOCAL-00048" summary="Adding few more questions 13">
       <option name="closed" value="true" />
@@ -597,7 +589,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756870398254</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="Additional questions -3">
+      <option name="closed" value="true" />
+      <created>1756903818245</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1756903818245</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -615,7 +615,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
-    <MESSAGE value="Adding few more questions 36" />
     <MESSAGE value="Adding few more questions 37" />
     <MESSAGE value="Linkedin apply search change" />
     <MESSAGE value="Removing commented code" />
@@ -640,6 +639,7 @@
     <MESSAGE value="Additional questions" />
     <MESSAGE value="Additional questions -1" />
     <MESSAGE value="Additional questions -2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Additional questions -2" />
+    <MESSAGE value="Additional questions -3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Additional questions -3" />
   </component>
 </project>

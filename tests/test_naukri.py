@@ -34,7 +34,7 @@ class TestNaukriJobApply:
         job_search_page.apply_education_filter()
         job_search_page.apply_role_category_filter()
         job_search_page.apply_remote_work_mode_filter()
-        # job_search_page.apply_hybrid_work_mode_filter()
+        job_search_page.apply_hybrid_work_mode_filter()
         total_jobs = job_search_page.get_total_number_of_jobs()
         total_pages = math.ceil(total_jobs/20)
         second_last_page = total_pages - 1
