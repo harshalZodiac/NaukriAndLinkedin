@@ -36,7 +36,7 @@ class LinkedinJobApplyPage:
         self.page.locator(self.job_apply_section).click()
 
     def provide_job_search_input(self):
-        self.page.locator(self.job_section_side_bar).first.wait_for(state="visible")
+        self.page.locator('//span[text()="My jobs"]').first.wait_for(state="visible")
         self.page.locator(self.job_search_input).first.fill(settings.LINKEDIN_JOB_SEARCH_INPUT)
         time.sleep(2)
         self.page.keyboard.press("Enter")

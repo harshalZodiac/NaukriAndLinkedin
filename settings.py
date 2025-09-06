@@ -22,6 +22,7 @@ USER_FULL_NAME = "Harshal Suryakant Shinde"
 
 YEARS_OF_EXPERIENCE_IN_CORE = '5'
 YEARS_OF_EXPERIENCE_IN_NON_CORE = '3'
+NO_EXPERIENCE = '0'
 
 EXPECTED_CTC_FULL_NUMERIC = '1800000'
 CURRENT_CTC_FULL_NUMERIC = '700000'
@@ -345,6 +346,7 @@ question_answer_map = {
     "Are you comfortable for Face2face interview round on 26th July 25 (Sat)":ANSWER_YES,
     "How many years of experience do you have in Embedded?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "What is your notice period?":NOTICE_PERIOD_RADIO_OPTION,
+    "Are you currently residing in Chennai, Tamil Nadu or willing to relocate to Chennai, Tamil Nadu?":ANSWER_NO,
     "How many years of hands-on Appian QA/testing experience do you have (functional, integration, regression, UAT)?":YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of total experience do you hold?":YEARS_OF_EXPERIENCE_IN_CORE,
     "Are you ready to come for Face to Face discussion on 30th July 2025 at Wipro office,Chennai?":ANSWER_NO,
@@ -1226,10 +1228,25 @@ question_answer_map = {
     "How many years of experience do you have in QA, both manual and automation?":YEARS_OF_EXPERIENCE_IN_CORE,
     "Do you have a minimum of 70% marks in all your academic qualifications (schooling and higher education)?":ANSWER_YES,
     "How many years of experience do you have in Manual And Automation Testing?":YEARS_OF_EXPERIENCE_IN_CORE,
-    "Are you currently residing in Chennai, Tamil Nadu or willing to relocate to Chennai, Tamil Nadu?":ANSWER_YES,
     "How many years of experience do you have in Mobile Testing?":YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of experience in API Testing?":YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of experience do you have in Cloud?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in Java Development?": "<3 years",
+    "Are you available for F2F Interview on 6th Sep Saturday in Bangalore Marathahalli ?":ANSWER_YES,
+    "Are you willing to work from Chennai?":ANSWER_NO,
+    "Are you located in Pune":ANSWER_YES,
+    "Have you led a team of developers before ?":ANSWER_NO,
+    "How many years of experience do you have in Flutter?":NO_EXPERIENCE,
+    "mention your total years of experience":YEARS_OF_EXPERIENCE_IN_CORE,
+    "Have you integrated iOS automated tests into CI/CD pipelines (e.g., Jenkins, GitHub Actions)?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have in R12?":NO_EXPERIENCE,
+    "How many years of .NET experience":NO_EXPERIENCE,
+    "How soon you can join?":NOTICE_PERIOD_IN_DAYS,
+    "How many years of experience do you have in Teradata?":NO_EXPERIENCE,
+    "Do you have experience in scripting/programming (Python, Go, Bash)? If yes, which languages and for what type of tasks?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of experience do you have working with Kubernetes (in production)?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "Have you worked in any banking projects? (if yes, how many years)":NO_EXPERIENCE,
+    "How many years of experience do you have in NLP?":NO_EXPERIENCE,
     "Current CTC? And Expected CTC?":f'{CURRENT_CTC_NUMERIC} & {EXPECTED_CTC_NUMERIC}',
     "How many years of experience do you have in API Testing ?":YEARS_OF_EXPERIENCE_IN_CORE,
     "Are you available for F2F interview on June 14th ??":ANSWER_YES,
