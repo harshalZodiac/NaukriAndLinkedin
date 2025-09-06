@@ -13,9 +13,9 @@ JOB_SEARCH_TITLES = 'SDET, python test automation, Software testing, Automation 
 JOB_SEARCH_LOCATIONS =  'Pune, Bengaluru, India'
 # JOB_SEARCH_LOCATIONS =  'Bengaluru'
 
-# LINKEDIN_JOB_SEARCH_INPUT = "senior automation test or SDET remote"
+LINKEDIN_JOB_SEARCH_INPUT = "senior automation test or SDET remote"
 # LINKEDIN_JOB_SEARCH_INPUT = "senior automation test or SDET in India Remote"
-LINKEDIN_JOB_SEARCH_INPUT = "Automation Test Engineer job in product based organization in india Remote"
+# LINKEDIN_JOB_SEARCH_INPUT = "Automation Test Engineer job in product based organization in india Remote"
 
 SALUTATION = 'Mr.'
 USER_FULL_NAME = "Harshal Suryakant Shinde"
@@ -873,6 +873,21 @@ question_answer_map = {
     "How many years of work experience do you have in API Automation?":YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of work experience do you have in Automation using Python/Java?":YEARS_OF_EXPERIENCE_IN_CORE,
     "How many test cases have you automated so far?":"2000",
+    "Do you have hands-on experience in Selenium WebDriver with Java?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "Do you have practical experience in ETL testing (extraction, transformation, and loading)?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "Relevant years of experience in QA Automation testing (Java/Python)?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "On a scale of 1–10, how would you rate your coding skills in: Java/Python?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How many years of hands-on experience do you have with Karate Framework (UI and API automation)?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How many end-to-end automation projects have you delivered using Karate Framework?":NO_EXPERIENCE,
+    "On a scale of 1 to 10, how would you rate your proficiency in Karate Framework (both UI & API)?":NO_EXPERIENCE,
+    "How many years OTT experience do you have?":NO_EXPERIENCE,
+    "City":CURRENT_LOCATION,
+    "Are you available to start immediately?":ANSWER_YES,
+    "How many days/months is your notice period?":NOTICE_PERIOD_IN_DAYS,
+    "What is your salary expectation?":EXPECTED_CTC_NUMERIC,
+    "How Many Years Of Experience in Talend Etl ?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
+    "How Many Years Of Experience in Scripting language?":YEARS_OF_EXPERIENCE_IN_CORE,
+    "How Many Years Of Experience in Cloud ?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "Hands-on experience with Automation, CI/CD practices & Scripting skills?":YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of experience do you have in Web and Mobile Automation testing?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
     "How many years of hands-on experience do you have working with Appium for mobile test automation?":YEARS_OF_EXPERIENCE_IN_NON_CORE,
@@ -1169,7 +1184,6 @@ question_answer_map = {
     "How many years of work experience do you have with SAP Cloud Platform?": YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of work experience do you have with Cash Management?": YEARS_OF_EXPERIENCE_IN_CORE,
     "Total Experience": YEARS_OF_EXPERIENCE_IN_CORE,
-    "City": CURRENT_LOCATION,
     "Total Year experience": YEARS_OF_EXPERIENCE_IN_CORE,
     "How many years of experience do you hold with penetration testing tools and methodologies – PTES, NIST 800-115, OWASP": ANSWER_YES,
     "how much is your expected CTC": CURRENT_CTC_NUMERIC,

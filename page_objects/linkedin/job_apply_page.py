@@ -37,8 +37,9 @@ class LinkedinJobApplyPage:
 
     def provide_job_search_input(self):
         self.page.locator('//span[text()="My jobs"]').first.wait_for(state="visible")
-        self.page.locator(self.job_search_input).first.fill(settings.LINKEDIN_JOB_SEARCH_INPUT)
-        time.sleep(2)
+        job_search_bar= self.page.locator(self.job_search_input).first
+        job_search_bar.wait_for(state="visible")
+        job_search_bar.fill(settings.LINKEDIN_JOB_SEARCH_INPUT)
         self.page.keyboard.press("Enter")
 
     def apply_filter_date_posted(self):

@@ -12,7 +12,8 @@ class LinkedInProfileLocators:
 class LinkedInJobSearchLocators:
     JOB_SECTION = '[type="job"]'
     # JOB_SEARCH_INPUT = '[role="combobox"]'
-    JOB_SEARCH_INPUT = "input[role='combobox'][placeholder='Search']"
+    # JOB_SEARCH_INPUT = "input[role='combobox'][placeholder='Search']"
+    JOB_SEARCH_INPUT = "input[data-testid='typeahead-input'][componentkey='jobSearchBox']"
     JOB_SECTION_SIDE_BAR = '[class="jobs-home-scalable-nav"]'
     DATE_POSTED_FILTER_OPTIONS = '[aria-label="Date posted filter. Clicking this button displays all Date posted filter options."]'
     DATE_POSTED_LAST_ONE_DAY = '//span[text()="Past 24 hours"]'
